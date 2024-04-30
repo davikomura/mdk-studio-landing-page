@@ -1,11 +1,11 @@
 import React from 'react'
-import logo from '../../assets/Logo.png'
+import logo from '../../assets/image.png'
 
 const Header = () => {
     return(
-        <header class='flex shadow-md py-4 px-4 sm:px-10 bg-white font-sans min-h-[70px] tracking-wide relative z-50'>
-            <div class='flex flex-wrap items-center justify-between gap-4 w-full'>
-                <a href="javascript:void(0)"><img src={logo} alt="logo" class='w-8' />
+        <header class='fixed top-0 left-0 right-0 flex shadow-md py-4 px-4 sm:px-10 bg-transparent font-sans min-h-[70px] tracking-wide z-50'>
+            <div class='flex flex-wrap items-center justify-evenly gap-0 w-full'>
+                <a href="javascript:void(0)"><img src={logo} alt="logo" class='w-20' />
                 </a>
 
                 <div id="collapseMenu"
@@ -28,16 +28,16 @@ const Header = () => {
                         </a>
                         </li>
                         <li className='max-lg:border-b max-lg:py-3 px-3'>
-                        <a href='javascript:void(0)' className='hover:text-[#007bff] text-[#007bff] font-bold block text-base'>Planos</a>
+                        <a href='javascript:void(0)' className='hover:text-[#007bff] text-white font-bold block text-xl'>Planos</a>
                         </li>
                         <li className='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
-                            className='hover:text-[#007bff] text-gray-600 font-bold block text-base'>Serviços</a>
+                            className='hover:text-[#007bff] text-white font-bold block text-xl'>Serviços</a>
                         </li>
                         <li className='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
-                            className='hover:text-[#007bff] text-gray-600 font-bold block text-base'>Sobre Nós</a>
+                            className='hover:text-[#007bff] text-white font-bold block text-xl'>Sobre Nós</a>
                         </li>
                         <li className='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
-                            className='hover:text-[#007bff] text-gray-600 font-bold block text-base'>FAQ</a>
+                            className='hover:text-[#007bff] text-white font-bold block text-xl'>FAQ</a>
                         </li>
                     </ul>
                 </div>
