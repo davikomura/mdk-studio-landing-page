@@ -1,12 +1,16 @@
 import React from 'react'
 import logo from '../../assets/image.png'
+import { Link } from "react-router-dom";
 
 const Header = () => {
     return(
         <header class='fixed top-0 left-0 right-0 flex shadow-md py-4 px-4 sm:px-10 bg-transparent font-sans min-h-[70px] tracking-wide z-50'>
             <div class='flex flex-wrap items-center justify-evenly gap-0 w-full'>
-                <a href="javascript:void(0)"><img src={logo} alt="logo" class='w-20' />
-                </a>
+                <Link to="/">
+                    <a href="javascript:void(0)"><img src={logo} alt="logo" class='w-20' />
+                    </a>
+                </Link>
+                
 
                 <div id="collapseMenu"
                 class='max-lg:hidden lg:!block max-lg:before:fixed max-lg:before:bg-black max-lg:before:opacity-50 max-lg:before:inset-0 max-lg:before:z-50'>
@@ -28,7 +32,9 @@ const Header = () => {
                         </a>
                         </li>
                         <li className='max-lg:border-b max-lg:py-3 px-3'>
-                        <a href='javascript:void(0)' className='hover:text-[#007bff] text-white font-bold block text-xl'>Planos</a>
+                            <Link to="/planos">
+                                <a href='javascript:void(0)' className='hover:text-[#007bff] text-white font-bold block text-xl'>Planos</a>
+                            </Link>
                         </li>
                         <li className='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
                             className='hover:text-[#007bff] text-white font-bold block text-xl'>Galeria</a>
