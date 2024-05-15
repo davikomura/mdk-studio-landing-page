@@ -4,6 +4,7 @@ import App from './App.jsx';
 import Home from './components/sessions/Home.jsx';
 import { Planos } from './components/sessions/Planos.jsx';
 import About from './components/sessions/About.jsx';
+import Faq from './components/sessions/Faq.jsx';
 
 const routes = [
   
@@ -22,6 +23,10 @@ const routes = [
       {
         path: "/about",
         element: <About />,
+      },
+      {
+        path: "/FAQ",
+        element: <Faq />,
       },
     ]
   }

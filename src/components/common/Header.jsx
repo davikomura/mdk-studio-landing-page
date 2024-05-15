@@ -46,8 +46,11 @@ const Header = () => {
                                 className='hover:text-[#007bff] text-white font-bold block text-xl'>Sobre Nós</a>
                             </Link>
                         </li>
-                        <li className='max-lg:border-b max-lg:py-3 px-3'><a href='javascript:void(0)'
-                            className='hover:text-[#007bff] text-white font-bold block text-xl'>FAQ</a>
+                        <li className='max-lg:border-b max-lg:py-3 px-3'>
+                            <Link to="/FAQ">
+                                <a href='javascript:void(0)'
+                                className='hover:text-[#007bff] text-white font-bold block text-xl'>FAQ</a>
+                            </Link>
                         </li>
                     </ul>
                 </div>
