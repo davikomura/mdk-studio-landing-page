@@ -10,6 +10,9 @@ export default {
         'custom-color': '#202626',
         'color-plan': '#2E403C',
       },
+      backgroundImage: {
+        'fundo-planos': "url('./src/assets/fundo.png')",
+      }
     },
   },
   plugins: [],

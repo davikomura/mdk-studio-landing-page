@@ -1,15 +1,18 @@
 import React from 'react'
-import fundo from '../../assets/fundo.png'
+// import fundo from '../../assets/fundo.png'
 import marmore from '../../assets/marmore.png'
 import check from '../../assets/check.svg'
 
 export const Planos = () => {
   return (
-    <>
-      <div className="absolute inset-0 bg-cover bg-center h-screen">
-        <img src={fundo} alt="Background Image" className="object-cover object-center w-full h-full" />
-      </div>
-      <div className="absolute inset-0"></div>
+    <div className="bg-fundo-planos w-full h-screen absolute inset-0 bg-cover bg-center object-cover object-center">
+      
+      {/* <div className="absolute inset-0 bg-cover bg-center h-screen">
+        <img src={fundo} alt="Background Image" className="object-cover object-center w-full h-full"/>
+      </div> */}
+
+      {/* <div className="absolute inset-0"></div> */}
+      
       <div className="relative z-10">
         <div className="flex flex-col justify-center items-center h-screen">
           <h1 className="text-white text-center text-5xl font-bold mb-4">
@@ -110,6 +113,6 @@ export const Planos = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
