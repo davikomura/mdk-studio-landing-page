@@ -12,7 +12,8 @@ export default {
       },
       backgroundImage: {
         'fundo-planos': "url('./src/assets/fundo.png')",
-      }
+        'textura-marmore' : "url('./src/assets/marmore.png')"
+      },
     },
   },
   plugins: [],

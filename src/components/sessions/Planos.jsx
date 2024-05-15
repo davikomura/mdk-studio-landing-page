@@ -13,15 +13,15 @@ export const Planos = () => {
 
       {/* <div className="absolute inset-0"></div> */}
       
-      <div className="relative z-10">
-        <div className="flex flex-col justify-center items-center h-screen">
-          <h1 className="text-white text-center text-5xl font-bold mb-4">
-            Planos 
-          </h1>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-4 p-4 mb-28">
+      <div className="z-10">
+        <div className="flex flex-col justify-center items-center h-screen pt-20">
+          <p className="text-white text-center text-3xl font-bold mb-3">
+            Planos
+          </p>
+          <div className="flex flex-wrap justify-center items-center gap-4 p-4 mb-15">
             <div className="">
               <div className='bg-color-plan w-72 h-128 rounded-md font-bold relative'>
-                <img src={marmore} alt="Background Image" className="object-cover object-center w-full h-full opacity-30" />
+                <img src={marmore} alt="Background Image" className=" rounded-md object-cover object-center w-full h-full opacity-30" />
                 <div className='text-white ml-6 pt-3 absolute top-0 left-0 bg-opacity-75'>BÁSICO</div>
                 <div className='text-white ml-6 pt-20 absolute top-0 left-0 bg-opacity-75'>Benefício 1</div>
                 <div className='text-white ml-6 pt-32 absolute top-0 left-0 bg-opacity-75'>
@@ -49,7 +49,7 @@ export const Planos = () => {
             </div>
             <div className="ml-2">
               <div className='bg-color-plan w-72 h-128 rounded-md font-bold relative'>
-                <img src={marmore} alt="Background Image" className="object-cover object-center w-full h-full opacity-30" />
+                <img src={marmore} alt="Background Image" className=" rounded-md object-cover object-center w-full h-full opacity-30" />
                 <div className='text-white ml-6 pt-3 absolute top-0 left-0 bg-opacity-75'>INTERMEDIÁRIO</div>
                 <div className='text-white ml-6 pt-20 absolute top-0 left-0 bg-opacity-75'>Benefício 1</div>
                 <div className='text-white ml-6 pt-32 absolute top-0 left-0 bg-opacity-75'>
@@ -81,7 +81,7 @@ export const Planos = () => {
             </div>
             <div className="ml-2.5">
               <div className='bg-color-plan w-72 h-128 rounded-md font-bold relative'>
-                <img src={marmore} alt="Background Image" className="object-cover object-center w-full h-full opacity-30" />
+                <img src={marmore} alt="Background Image" className="rounded-md object-cover object-center w-full h-full opacity-30" />
                 <div className='text-white ml-6 pt-3 absolute top-0 left-0 bg-opacity-75'>PREMIUM</div>
                 <div className='text-white ml-6 pt-20 absolute top-0 left-0 bg-opacity-75'>Benefício 1</div>
                 <div className='text-white ml-6 pt-32 absolute top-0 left-0 bg-opacity-75'>
