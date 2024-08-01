@@ -20,7 +20,7 @@ const About = () => {
                         <div className="">
                             <div className="card">
                                 <div className="card-photo bg-black">
-                                    <img src={davi}></img>
+                                    <img src={davi} width={500}></img>
                                 </div>
                                 <div className="card-title">Davi Komura <br></br>
                                     <span>Dev Fullstack</span>
@@ -47,7 +47,7 @@ const About = () => {
                         <div className="">
                             <div className="card">
                                 <div className="card-photo">
-                                    <img src={felipe}></img>
+                                    <img src={felipe} width={500}></img>
                                 </div>
                                 <div className="card-title">Felipe Macedo <br></br>
                                     <span>Dev Fullstack</span>
@@ -74,7 +74,7 @@ const About = () => {
                         <div className="">
                             <div className="card">
                                 <div className="card-photo">
-                                    <img src={daniel}></img>
+                                    <img src={daniel} width={500}></img>
                                 </div>
                                 <div className="card-title">Daniel Korban <br></br>
                                     <span>Dev Fullstack</span>

@@ -1,8 +1,6 @@
 import React from 'react'
 
 
-
-
 const Home = () => {
     return(
         <div>
@@ -18,7 +16,7 @@ const Home = () => {
                     <p className="text-white text-center text-2xl mb-24">
                         Sua presença online inicia aqui
                     </p>
-                    <button className='bg-white rounded-full px-8 py-3 font-bold hover:bg-blue-700 text-2xl'>Comece já</button>
+                    <button className='bg-white rounded-full px-8 py-3 font-bold hover:bg-blue-700 hover:text-white text-2xl'>Comece já</button>
                 </div>
             </div>
         </div>
