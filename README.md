@@ -26,7 +26,6 @@ Para contribuir com o projeto, siga os passos abaixo:
 - [Davi Komura](https://github.com/davikomura)
 - [Daniel Lima](https://github.com/daniel99korban)
 - [Felipe Macedo](https://github.com/macedoflp)
-- [Roberto Lucas](https://github.com/robspereira)
 
 ## Licença
 
