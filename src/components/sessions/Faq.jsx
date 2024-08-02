@@ -11,50 +11,48 @@ const Faq = () => {
       <div className="relative z-10">
         <section class="text-gray-100 py-32 min-h-screen">
           <div class="container flex flex-col justify-center p-4 mx-auto md:p-8">
-            <h2 class="mb-12 text-4xl font-bold leadi text-center sm:text-5xl">Frequently Asked Questions</h2>
+            <h2 class="mb-12 text-4xl font-bold leadi text-center sm:text-5xl">Perguntas Frequentes</h2>
             <div class="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-700">
               <details>
-                <summary class="py-2 outline-none cursor-pointer focus:underline">How can I place an order?</summary>
+                <summary class="py-2 outline-none cursor-pointer focus:underline">Quanto custa para construir um site?</summary>
                 <div class="px-4 pb-4">
-                  <p>You can easily place an order on our website by browsing our product catalog, selecting the items you want, and adding them to your cart. Then, proceed to checkout, where you can provide your shipping and payment information to complete the order.</p>
+                  <p>O custo depende de vários fatores, incluindo a complexidade do projeto, o número de páginas, e as funcionalidades específicas necessárias. Oferecemos orçamentos personalizados baseados nas suas necessidades e requisitos.</p>
                 </div>
               </details>
               <details>
-                <summary class="py-2 outline-none cursor-pointer focus:underline">What payment methods do you accept?</summary>
+                <summary class="py-2 outline-none cursor-pointer focus:underline">Como posso atualizar o conteúdo do meu site depois que finalizado?</summary>
                 <div class="px-4 pb-4">
-                  <p>We accept various payment methods, including credit cards, debit cards, net banking, and mobile wallet payments. You can choose the payment option that is most convenient for you during the checkout process.</p>
+                  <p>Fornecemos treinamento básico para que você possa gerenciar e modificar textos, imagens e outros elementos do site. Se preferir, também podemos realizar atualizações para você, conforme necessário.</p>
                 </div>
               </details>
               <details>
-                <summary class="py-2 outline-none cursor-pointer focus:underline">How long does shipping take?</summary>
+                <summary class="py-2 outline-none cursor-pointer focus:underline">Vocês podem me ajudar a escolher um nome de domínio?</summary>
                 <div class="px-4 pb-4">
-                  <p>Shipping times may vary depending on your location and the shipping method chosen. Typically, orders are processed within 1-2 business days, and delivery can take 3-7 business days within India. You will receive a tracking notification once your order is shipped.</p>
+                  <p>Sim, podemos ajudar você a escolher um nome de domínio. Vamos considerar fatores como a relevância para o seu negócio, facilidade de lembrar, e disponibilidade. Oferecemos orientações e sugestões para encontrar um nome que se encaixe bem com a identidade da sua marca e esteja disponível para registro.</p>
                 </div>
               </details>
               <details>
-                <summary class="py-2 outline-none cursor-pointer focus:underline">Can I return a product if I'm not satisfied?</summary>
+                <summary class="py-2 outline-none cursor-pointer focus:underline">Quanto tempo leva para o meu site ficar pronto?</summary>
                 <div class="px-4 pb-4">
-                  <p>Yes, we have a hassle-free return policy. If you are not satisfied with your purchase, you can initiate a return within 30 days of receiving the product. Please contact our customer support at <a href="" class="underline">example@gmail.com</a> for assistance.</p>
+                  <p>O prazo pode variar dependendo da complexidade do projeto, mas geralmente, o desenvolvimento de um site simples leva entre 2 a 3 semanas. Projetos mais complexos, como aplicações web ou sites com funcionalidades avançadas, podem levar mais tempo.</p>
                 </div>
               </details>
               <details>
-                <summary class="py-2 outline-none cursor-pointer focus:underline">Do you offer international shipping?</summary>
+                <summary class="py-2 outline-none cursor-pointer focus:underline">Vocês oferecem suporte técnico após o lançamento do site?</summary>
                 <div class="px-4 pb-4">
-                  <p>Currently, we only provide shipping services within India. However, we may consider expanding our shipping options to international locations in the future. Please stay updated with our website for any changes in shipping destinations.</p>
+                  <p>Sim, oferecemos suporte técnico após o lançamento do site. Isso inclui correção de problemas, atualizações de segurança, ajustes necessários e orientação sobre como gerenciar o conteúdo. Estamos aqui para garantir que seu site continue funcionando bem e atender às suas necessidades.</p>
                 </div>
               </details>
               <details>
-                <summary class="py-2 outline-none cursor-pointer focus:underline">What is your customer support contact?</summary>
+                <summary class="py-2 outline-none cursor-pointer focus:underline"> Vocês oferecem serviços de hospedagem?</summary>
                 <div class="px-4 pb-4">
-                  <p>If you have any questions, concerns, or need assistance, you can reach our customer support team at 9911083755 during our business hours, Monday to Saturday from 10 am to 6 pm. You can also contact us via email at <a href="" class="underline">example@gmail.com</a>.</p>
+                  <p>Oferecemos recomendações para serviços de hospedagem e podemos ajudar a configurar o ambiente de hospedagem, mas não fornecemos serviços de hospedagem diretamente.</p>
                 </div>
               </details>
               <details>
-                <summary class="py-2 outline-none cursor-pointer focus:underline">What are your terms and conditions?</summary>
+                <summary class="py-2 outline-none cursor-pointer focus:underline">Como posso entrar em contato para um orçamento ou consulta?</summary>
                 <div class="px-4 pb-4">
-                  <p>You can find our detailed terms and conditions by visiting our 
-                    <a href="" class="underline">Terms of Service</a> 
-                    page on our website. It includes information about our policies, user guidelines, and more.</p>
+                  <p>Você pode entrar em contato conosco através do formulário de contato em nosso site, por e-mail, ou telefonicamente. Estamos à disposição para discutir suas necessidades e fornecer um orçamento personalizado.</p>
                 </div>
               </details>
             </div>
