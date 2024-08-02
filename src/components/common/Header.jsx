@@ -48,7 +48,7 @@ const Header = () => {
                             <Link to="/planos">
                                 <a href="#" className="block rounded-md bg-white px-3 py-2 text-base font-medium text-gray-800" aria-current="page">Planos</a>
                             </Link>
-                            <Link to="/">
+                            <Link to="/galeria">
                                 <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Galeria</a>
                             </Link>
                             <Link to="/about">
@@ -71,7 +71,7 @@ const Header = () => {
                         <Link to="/planos">
                                 <a href="#" className="block rounded-md bg-white-900 px-3 py-2 text-base font-medium text-white" aria-current="page">Planos</a>
                         </Link>
-                        <Link to="/">
+                        <Link to="/galeria">
                             <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Galeria</a>
                         </Link>
                         <Link to="/about">

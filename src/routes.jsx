@@ -5,6 +5,7 @@ import Home from './components/sessions/Home.jsx';
 import { Planos } from './components/sessions/Planos.jsx';
 import About from './components/sessions/About.jsx';
 import Faq from './components/sessions/Faq.jsx';
+import { Galeria } from './components/sessions/Galeria.jsx';
 
 const routes = [
   
@@ -27,6 +28,10 @@ const routes = [
       {
         path: "/FAQ",
         element: <Faq />,
+      },
+      {
+        path: "/galeria",
+        element: <Galeria />,
       },
     ]
   }

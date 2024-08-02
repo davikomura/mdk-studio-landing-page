@@ -1,0 +1,44 @@
+{
+   "Projetos": [
+        {
+            "empresa": "TechGizmo",
+            "imagem": "img/Projetos/site1.png",
+            "link": "https://defensoria.ma.def.br/dpema/"
+        },
+        {
+            "empresa": "AdventureGear",
+            "imagem": "img/Projetos/Trekking.png",
+            "link": ""
+        },
+        {
+            "empresa": "MountainMaster",
+            "imagem": "img/Projetos/mountain_bike.png",
+            "link": ""
+        },
+        {
+            "empresa": "SpeedCyclist",
+            "imagem": "img/Projetos/road_bike.png",
+            "link": ""
+        },
+        {
+            "empresa": "KidzZone",
+            "imagem": "img/Projetos/kids_bike.png",
+            "link": ""
+        },
+        {
+            "empresa": "TireTread",
+            "imagem": "img/Projetos/pneu_bike.png",
+            "link": ""
+        },
+        {
+            "empresa": "FashionFit",
+            "imagem": "img/Projetos/clothing_bike.png",
+            "link": ""
+        },
+        {
+            "empresa": "GearUp",
+            "imagem": "img/Projetos/accessories_bike.png",
+            "link": ""
+        }
+    ]
+}
