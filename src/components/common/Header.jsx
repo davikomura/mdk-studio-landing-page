@@ -7,7 +7,6 @@ const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
 
     const toggleMenu = () => {
-        console.log("teste")
         setMenuOpen(!menuOpen);
     };
 
@@ -44,18 +43,17 @@ const Header = () => {
                         </div>
                         <div className="hidden sm:ml-6 sm:block">
                         <div className="flex space-x-4">
-                            {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                             <Link to="/planos">
-                                <a href="#" className="block rounded-md bg-white px-3 py-2 text-base font-medium text-gray-800" aria-current="page">Planos</a>
+                                <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar" aria-current="page">Planos</a>
                             </Link>
                             <Link to="/galeria">
-                                <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Galeria</a>
+                                <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar">Galeria</a>
                             </Link>
                             <Link to="/about">
-                                <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Sobre Nós</a>
+                                <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar">Sobre Nós</a>
                             </Link>
                             <Link to="/FAQ">
-                                <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">FAQ</a>
+                                <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar">FAQ</a>
                             </Link>
                         </div>
                         </div>
