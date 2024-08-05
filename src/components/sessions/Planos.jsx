@@ -9,7 +9,7 @@ export const Planos = () => {
       
       <div className="z-10">
         <div className="flex flex-col justify-center items-center h-screen pt-20">
-          <p className="text-white text-center text-3xl font-bold mb-3">
+          <p className="text-white text-center text-5xl font-bold mb-3">
             Planos
           </p>
           <div className="flex flex-wrap justify-center items-center gap-4 p-4 mb-15">
