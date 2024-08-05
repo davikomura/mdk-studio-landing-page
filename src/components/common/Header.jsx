@@ -37,24 +37,23 @@ const Header = () => {
                         </div>
                     <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start">
                         <div className="flex flex-shrink-0 items-center">
-                            <Link to="/">
+                            <a href="#home">
                                 <img className="h-12 w-auto" src={logo} alt="Logo MDK Studio"/>
-                            </Link>
+                            </a>
                         </div>
                         <div className="hidden sm:ml-6 sm:block">
                         <div className="flex space-x-4">
-                            <Link to="/planos">
-                                <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar" aria-current="page">Planos</a>
-                            </Link>
-                            <Link to="/galeria">
-                                <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar">Galeria</a>
-                            </Link>
-                            <Link to="/about">
-                                <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar">Sobre Nós</a>
-                            </Link>
-                            <Link to="/FAQ">
-                                <a href="#" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar">FAQ</a>
-                            </Link>
+                                <a href="#planos" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar" aria-current="page">Planos</a>
+                            
+                           
+                                <a href="#galeria" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar">Galeria</a>
+                            
+                           
+                                <a href="#about" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar">Sobre Nós</a>
+                           
+                           
+                                <a href="#FAQ" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar">FAQ</a>
+                         
                         </div>
                         </div>
                     </div>

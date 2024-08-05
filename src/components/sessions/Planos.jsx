@@ -5,13 +5,7 @@ import check from '../../assets/check.svg'
 
 export const Planos = () => {
   return (
-    <div className="bg-fundo-planos w-full h-screen absolute inset-0 bg-cover bg-center object-cover object-center">
-      
-      {/* <div className="absolute inset-0 bg-cover bg-center h-screen">
-        <img src={fundo} alt="Background Image" className="object-cover object-center w-full h-full"/>
-      </div> */}
-
-      {/* <div className="absolute inset-0"></div> */}
+    <div id="planos" className="bg-fundo-planos w-full h-screen inset-0 bg-cover bg-center object-cover object-center">
       
       <div className="z-10">
         <div className="flex flex-col justify-center items-center h-screen pt-20">
