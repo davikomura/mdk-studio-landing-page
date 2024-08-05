@@ -12,7 +12,6 @@ function App() {
   return (
     <>
       <Header/>
-      {/* <Outlet/> */}
       <Home/>
       <Planos/>
       <Galeria/>

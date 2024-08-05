@@ -4,7 +4,7 @@ import fundo from '../../assets/fundosobre.png';
 const Faq = () => {
   return (
     <>
-      <div id="FAQ" className=" inset-0 bg-cover object-cover relative object-center bg-center h-screen" style={{backgroundImage: "url('src/assets/fundosobre.png')"}}>
+      <div id="FAQ" className=" inset-0 bg-cover object-cover relative object-center bg-center h-screen" style={{backgroundImage: "url('src/assets/FAQ.png')"}}>
       
         <div className="relative z-10">
           <section class="text-gray-100 py-32 min-h-screen">
