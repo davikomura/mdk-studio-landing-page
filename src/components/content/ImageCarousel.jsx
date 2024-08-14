@@ -73,7 +73,7 @@ const ImageCarousel = () => {
                 }`}
               >
                 <img src={projeto.image} alt={projeto.name} className="w-full h-full object-cover" />
-                <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center text-3xl font-bold">
+                <div className="drop-shadow bg-gradient-to-r from-gray-700 to-transparent absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center text-3xl font-bold">
                   <div className="text-white">{projeto.name}</div>
                 </div>
                 <div className="absolute left-0 right-0 bottom-5 flex flex-col justify-center items-center">
