@@ -11,7 +11,7 @@ export default {
         'color-plan': '#2E403C',
       },
       backgroundImage: {
-        'fundo-planos': "url('./src/assets/fundo.png')",
+        'fundo': "linear-gradient(to left, #202626 , #232E36, #004F4F)",
         'textura-marmore' : "url('./src/assets/marmore.png')"
       },
     },

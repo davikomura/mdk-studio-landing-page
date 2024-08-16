@@ -5,9 +5,10 @@ import check from '../../assets/check.svg'
 
 export const Planos = () => {
   return (
-    <div id="planos" className="bg-fundo-planos w-full h-screen inset-0 bg-cover bg-center object-cover object-center">
+    <div id="planos" className="bg-fundo w-full h-screen inset-0 bg-cover bg-center object-cover object-center">
       
       <div className="z-10">
+        
         <div className="flex flex-col justify-center items-center h-screen pt-20">
           <p className="text-white text-center text-5xl font-bold mb-3">
             Planos

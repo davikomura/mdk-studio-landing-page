@@ -4,12 +4,11 @@ import fundo from '../../assets/fundosobre.png';
 const Faq = () => {
   return (
     <>
-      <div id="FAQ" className=" inset-0 bg-cover object-cover relative object-center bg-center h-screen" style={{backgroundImage: "url('src/assets/FAQ.png')"}}>
-      
+      <div id="FAQ" className="bg-fundo inset-0 bg-cover object-cover relative object-center bg-center h-screen">
         <div className="relative z-10">
           <section class="text-gray-100 py-32 min-h-screen">
             <div class="container flex flex-col justify-center p-4 mx-auto md:p-8">
-              <h2 class="mb-12 text-4xl font-bold leadi text-center sm:text-5xl">Perguntas Frequentes</h2>
+              <h2 class="mb-12 text-4xl font-bold leadi text-center sm:text-5xl">Perguntas frequentes</h2>
               <div class="flex flex-col divide-y sm:px-8 lg:px-12 xl:px-32 divide-gray-700">
                 <details>
                   <summary class="py-2 outline-none cursor-pointer focus:underline">Quanto custa para construir um site?</summary>

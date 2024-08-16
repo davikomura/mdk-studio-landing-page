@@ -117,7 +117,7 @@ const About = () => {
 
     return (
         <>
-            <div id="about" className=" inset-0 bg-cover object-cover relative object-center bg-center h-screen" style={{backgroundImage: "url('src/assets/fundosobre.png')"}}>
+            <div id="about" className="bg-fundo inset-0 bg-cover object-cover relative object-center bg-center h-screen">
                 <div class="flex flex-col justify-center items-center h-screen">
                     <h1 className="text-white text-center text-5xl font-bold mb-4">
                         Conheça nosso time

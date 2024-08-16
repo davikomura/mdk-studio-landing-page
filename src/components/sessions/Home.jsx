@@ -3,9 +3,9 @@ import React from 'react'
 
 const Home = () => {
     return(
-        <div id="home" className=" relative inset-0 bg-cover bg-center h-screen" style={{backgroundImage: "url('src/assets/img1.jpg')"}}>
+        <div id="home" className=" relative inset-0 bg-cover bg-center h-screen" style={{backgroundImage: "linear-gradient(to left, transparent 10%, #202626 , transparent 10%, #232E36, transparent 5%, #004F4F), url('src/assets/img1.jpg')"}}>
             <div className="absolute w-full h-full bg-black opacity-50" />
-            <div className="relative flex z-2 flex-col justify-center items-center h-screen">
+            <div className="relative flex z-10 flex-col justify-center items-center h-screen">
                 <h1 className="text-white text-center text-5xl font-bold mb-4">
                     Mostre seu trabalho para o mundo 
                     <br />
