@@ -4,7 +4,7 @@ import fundo from '../../assets/fundosobre.png';
 const Faq = () => {
   return (
     <>
-      <div id="FAQ" className="bg-fundo inset-0 bg-cover object-cover relative object-center bg-center h-screen">
+      <div id="FAQ" className="bg-black inset-0 bg-cover object-cover relative object-center bg-center h-screen">
         <div className="relative z-10">
           <section class="text-gray-100 py-32 min-h-screen">
             <div class="container flex flex-col justify-center p-4 mx-auto md:p-8">

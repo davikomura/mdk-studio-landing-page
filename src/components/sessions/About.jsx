@@ -117,7 +117,7 @@ const About = () => {
 
     return (
         <>
-            <div id="about" className="bg-fundo inset-0 bg-cover object-cover relative object-center bg-center h-screen">
+            <div id="about" className="bg-black inset-0 bg-cover object-cover relative object-center bg-center h-screen">
                 <div class="flex flex-col justify-center items-center h-screen">
                     <h1 className="text-white text-center text-5xl font-bold mb-4">
                         Conheça nosso time
@@ -206,6 +206,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
+                <hr class="h-px mt-50 bg-gray-200 border-0 dark:bg-gray-700 relative z-20"></hr>
             </div>
         </>
     )

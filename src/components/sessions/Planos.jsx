@@ -22,7 +22,7 @@ export const Planos = () => {
   };
 
   return (
-    <div id="planos" className="bg-custom-color w-full min-h-screen inset-0">
+    <div id="planos" className="bg-black w-full min-h-screen inset-0">
       <div className="mx-auto max-w-screen-xl px-4 sm:px-6 lg:px-8 pt-24">
         <div className="mb-12">
           <p className="text-white text-center text-3xl sm:text-4xl md:text-5xl font-bold mb-3">Planos</p>
@@ -308,6 +308,7 @@ export const Planos = () => {
           </div>
         </div>
       </div>
+      <hr class="h-px mt-64 bg-gray-200 border-0 dark:bg-gray-700 relative"></hr>
     </div>
   );
 };
