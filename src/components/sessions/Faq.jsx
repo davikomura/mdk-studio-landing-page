@@ -67,6 +67,7 @@ const Faq = () => {
                 ))}
               </div>
             </div>
+            <hr class="h-px mt-64 bg-gray-200 border-0 dark:bg-gray-700 relative"></hr>
           </section>
         </div>
       </div>

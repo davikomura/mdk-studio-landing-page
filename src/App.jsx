@@ -7,6 +7,7 @@ import { Planos } from './components/sessions/Planos';
 import { Galeria } from './components/sessions/Galeria';
 import About from './components/sessions/About';
 import Faq from './components/sessions/Faq';
+import Formulario from './components/sessions/Formulario';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Galeria/>
       <About/>
       <Faq/>
+      <Formulario/>
       <Footer/> 
     </>
   )

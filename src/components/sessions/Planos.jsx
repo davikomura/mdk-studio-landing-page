@@ -8,16 +8,16 @@ export const Planos = () => {
 
   const pricingData = {
     basic: {
-      monthly: 100,
-      annually: 1000, // 12 * 100 - desconto
+      monthly: 45,
+      annually: 490, // 12 * 100 - desconto
     },
     intermediate: {
-      monthly: 99,
+      monthly: 85,
       annually: 990, // 12 * 99 - desconto
     },
     premium: {
-      monthly: 150,
-      annually: 1500, // 12 * 150 - desconto
+      monthly: 135,
+      annually: 1490, // 12 * 150 - desconto
     },
   };
 
