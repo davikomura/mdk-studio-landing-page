@@ -128,7 +128,7 @@ const About = () => {
                             <span class="inline-block w-1 h-1 bg-blue-500 rounded-full"></span>
                         </div>
 
-                        <p class="max-w-2xl mx-auto mt-6 text-center text-gray-500 dark:text-gray-300">
+                        <p class="max-w-2xl mx-auto mt-6 text-center text-gray-300">
                             Na MDK Studio, nossa equipe de desenvolvedores é a alma do que fazemos. Somos um grupo dedicado e apaixonado por criar soluções inovadoras que transformam ideias em realidade.
 
 
@@ -136,17 +136,17 @@ const About = () => {
                     </div>
                 </div>
 
-                <div class="container px-6 py-10 mx-auto -mt-72 sm:-mt-80 md:-mt-96">
+                <div class="container px-64 py-24 mx-auto -mt-72 sm:-mt-80 md:-mt-96">
                     <div class="grid grid-cols-1 gap-8 mt-8 xl:mt-16 md:grid-cols-2 xl:grid-cols-3">
-                        <div class="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
+                        <div class="flex flex-col items-center p-4 border sm:p-6 rounded-xl border-gray-700">
                             <img class="object-cover w-full rounded-xl aspect-square" src={ftPerfilDavi} alt=""/>
 
-                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Davi Komura</h1>
+                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize text-white">Davi Komura</h1>
 
-                            <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">Dev Fullstack</p>
+                            <p class="mt-2 capitalize text-gray-300">Dev Fullstack</p>
 
                             <div class="flex mt-3 -mx-2">
-                                <a href="https://www.linkedin.com/in/davikomura-2099/" class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" aria-label="Linkedin">
+                                <a href="https://www.linkedin.com/in/davikomura-2099/" class="mx-2 transition-colors duration-300 text-gray-300 hover:text-blue-500 hover:text-blue-400" aria-label="Linkedin">
                                     <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -155,7 +155,7 @@ const About = () => {
                                     </svg>
                                 </a>
 
-                                <a href="#" class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" aria-label="Facebook">
+                                <a href="#" class="mx-2 transition-colors duration-300 text-gray-300 hover:text-blue-500 hover:text-blue-400" aria-label="Facebook">
                                     <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -164,7 +164,7 @@ const About = () => {
                                     </svg>
                                 </a>
 
-                                <a href="https://github.com/davikomura" class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" aria-label="Github">
+                                <a href="https://github.com/davikomura" class="mx-2 transition-colors duration-300 text-gray-300 hover:text-blue-500 hover:text-blue-400" aria-label="Github">
                                     <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -175,15 +175,15 @@ const About = () => {
                             </div>
                         </div>
 
-                        <div class="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
+                        <div class="flex flex-col items-center p-4 border sm:p-6 rounded-xl border-gray-700">
                             <img class="object-cover w-full rounded-xl aspect-square" src={ftPerfilFelipe} alt=""/>
 
-                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Felipe Macedo</h1>
+                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize text-white">Felipe Macedo</h1>
 
-                            <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">dev fullstack</p>
+                            <p class="mt-2 capitalize text-gray-300">dev fullstack</p>
 
                             <div class="flex mt-3 -mx-2">
-                                <a href="https://www.linkedin.com/in/macedoflp/" class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" aria-label="Linkedin">
+                                <a href="https://www.linkedin.com/in/macedoflp/" class="mx-2  transition-colors duration-300 text-gray-300 hover:text-blue-500 hover:text-blue-400" aria-label="Linkedin">
                                     <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -192,7 +192,7 @@ const About = () => {
                                     </svg>
                                 </a>
 
-                                <a href="#" class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" aria-label="Facebook">
+                                <a href="#" class="mx-2  transition-colors duration-300 text-gray-300 hover:text-blue-500 hover:text-blue-400" aria-label="Facebook">
                                     <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -201,7 +201,7 @@ const About = () => {
                                     </svg>
                                 </a>
 
-                                <a href="https://github.com/macedoflp" class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" aria-label="Github">
+                                <a href="https://github.com/macedoflp" class="mx-2  transition-colors duration-300 text-gray-300 hover:text-blue-500 hover:text-blue-400" aria-label="Github">
                                     <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -212,15 +212,15 @@ const About = () => {
                             </div>
                         </div>
 
-                        <div class="flex flex-col items-center p-4 border sm:p-6 rounded-xl dark:border-gray-700">
+                        <div class="flex flex-col items-center p-4 border sm:p-6 rounded-xl border-gray-700">
                             <img class="object-cover w-full rounded-xl aspect-square" src={ftPerfilDaniel} alt=""/>
 
-                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize dark:text-white">Daniel Korban</h1>
+                            <h1 class="mt-4 text-2xl font-semibold text-gray-700 capitalize text-white">Daniel Korban</h1>
 
-                            <p class="mt-2 text-gray-500 capitalize dark:text-gray-300">dev fullstack</p>
+                            <p class="mt-2 capitalize text-gray-300">dev fullstack</p>
 
                             <div class="flex mt-3 -mx-2">
-                                <a href="https://www.linkedin.com/in/danielkorban/" class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" aria-label="Linkedin">
+                                <a href="https://www.linkedin.com/in/danielkorban/" class="mx-2 transition-colors duration-300 text-gray-300 hover:text-blue-500 hover:text-blue-400" aria-label="Linkedin">
                                     <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -229,7 +229,7 @@ const About = () => {
                                     </svg>
                                 </a>
 
-                                <a href="#" class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" aria-label="Facebook">
+                                <a href="#" class="mx-2 transition-colors duration-300 text-gray-300 hover:text-blue-500 hover:text-blue-400" aria-label="Facebook">
                                     <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -238,7 +238,7 @@ const About = () => {
                                     </svg>
                                 </a>
 
-                                <a href="https://github.com/daniel99korban" class="mx-2 text-gray-600 transition-colors duration-300 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400" aria-label="Github">
+                                <a href="https://github.com/daniel99korban" class="mx-2 transition-colors duration-300 text-gray-300 hover:text-blue-500 hover:text-blue-400" aria-label="Github">
                                     <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -250,7 +250,7 @@ const About = () => {
                         </div>
                     </div>
                 </div>
-                <hr class="h-px mt-20 bg-gray-200 border-0 dark:bg-gray-700 relative"></hr>
+                <hr class="h-px mt-20 bg-gray-200 border-0 bg-gray-700 relative"></hr>
             </section>
         </>
     )
