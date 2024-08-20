@@ -64,7 +64,7 @@ const ImageCarousel = () => {
         onMouseMove={handleMouseMove}
         style={{ cursor: 'default', overflowX: 'hidden', marginLeft: 'auto', marginRight : 'auto'}}
       >
-        <div className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 ">
+        <div className="flex flex-nowrap ">
           {projetos.map((projeto, index) => (
             <div className="inline-block px-3 relative" key={index}>
               <div
