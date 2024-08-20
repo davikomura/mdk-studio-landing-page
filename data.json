@@ -14,31 +14,6 @@
             "empresa": "Sushiman",
             "imagem": "img/Projetos/sushibar.png",
             "link": "https://github.com/macedoflp/restaurant-website"
-        },
-        {
-            "empresa": "SpeedCyclist",
-            "imagem": "img/Projetos/road_bike.png",
-            "link": ""
-        },
-        {
-            "empresa": "KidzZone",
-            "imagem": "img/Projetos/kids_bike.png",
-            "link": ""
-        },
-        {
-            "empresa": "TireTread",
-            "imagem": "img/Projetos/pneu_bike.png",
-            "link": ""
-        },
-        {
-            "empresa": "FashionFit",
-            "imagem": "img/Projetos/clothing_bike.png",
-            "link": ""
-        },
-        {
-            "empresa": "GearUp",
-            "imagem": "img/Projetos/accessories_bike.png",
-            "link": ""
         }
     ]
 }
