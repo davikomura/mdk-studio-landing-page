@@ -43,7 +43,7 @@ const Header = () => {
                         </div>
                         <div className="hidden sm:ml-6 sm:block">
                         <div className="flex space-x-4">
-                                <a href="#planos" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar" aria-current="page">Planos</a>
+                                <a href="#Servicos" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar" aria-current="page">Serviços</a>
                             
                            
                                 <a href="#galeria" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar">Galeria</a>
