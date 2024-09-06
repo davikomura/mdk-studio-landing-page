@@ -30,7 +30,7 @@ const Modal = ({ servico, onClose }) => {
             </button>
             {showModal ? (
                 <div className="fixed inset-0 z-50 flex justify-center items-center">
-                    <div className="bg-black rounded-lg p-8 w-1/3 w-full">
+                    <div className="bg-black rounded-lg p-8 w-2/5 w-full">
                         <div className="flex justify-between items-center mb-4">
                             <h3 className="text-white text-3xl text-center font-semibold">Informações do Serviço</h3>
                             <button className="text-gray-500" onClick={handleModalClose}>
