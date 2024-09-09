@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { IoCloseCircle } from "react-icons/io5";
 
-export const ModalServ = ({ servico, onClose }) => {
+const ModalServ = ({ servico, onClose }) => {
     const [showModal, setShowModal] = useState(false);
 
     const iconSize = 30;
@@ -42,3 +42,5 @@ export const ModalServ = ({ servico, onClose }) => {
         </>
     );
 };
+
+export default ModalServ;

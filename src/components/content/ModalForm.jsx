@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { IoCloseCircle } from "react-icons/io5";
 import { FormWpp } from "./FormWpp";
 
-export const ModalForm = ({ onClose }) => {
+const ModalForm = ({ onClose }) => {
     const [showModal, setShowModal] = useState(false);
 
     const iconSize = 30;
@@ -44,3 +44,5 @@ export const ModalForm = ({ onClose }) => {
         </>
     );
 };  
+
+export default ModalForm;
