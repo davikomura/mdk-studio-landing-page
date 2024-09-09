@@ -1,6 +1,7 @@
-import React from 'react';
+import React, { useState } from "react";
 import ModalServ from "../content/ModalServ";
-import data from '/data.json'; // Assuming data is being imported from JSON
+import ModalForm from "../content/ModalForm";
+import data from '/data.json';
 
 export const Servicos = () => {
     return (
@@ -26,8 +27,7 @@ export const Servicos = () => {
                     </div>
                 ))}
             </div>
+            <ModalForm onClose={() => {}} />
         </div>
     );
 };
-
-export default Servicos;
