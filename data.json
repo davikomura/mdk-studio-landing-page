@@ -2,17 +2,17 @@
    "Projetos": [
         {
             "empresa": "TechGizmo",
-            "imagem": "img/Projetos/site1.png",
+            "imagem": "src/assets/img/Projetos/site1.png",
             "link": "https://defensoria.ma.def.br/dpema/"
         },
         {
             "empresa": "DK Advocacia",
-            "imagem": "img/Projetos/site2.PNG",
+            "imagem": "src/assets/img/Projetos/site2.PNG",
             "link": "https://daniel99korban.github.io/projeto-de-site-escritorio-de-advocacia/"
         },
         {
             "empresa": "Sushiman",
-            "imagem": "img/Projetos/sushibar.png",
+            "imagem": "src/assets/img/Projetos/sushibar.png",
             "link": "https://github.com/macedoflp/restaurant-website"
         }
     ],
@@ -21,7 +21,7 @@
         {
             "nome" : "Davi Komura",
             "funcao" : "Dev Fullstack", 
-            "foto" : "img/Time/davi.jpg",
+            "foto" : "src/assets/img/Time/davi.jpg",
             "tamImg" : 500,
             "redes_sociais" : [
                 { 
@@ -56,7 +56,7 @@
         {
             "nome" : "Felipe Macedo",
             "funcao" : "Dev Fullstack",
-            "foto" : "img/Time/felipe1.png",
+            "foto" : "src/assets/img/Time/felipe1.png",
             "tamImg" : 500,
             "redes_sociais" : [
                 { 
@@ -91,7 +91,7 @@
         {
             "nome" : "Daniel Korban",
             "funcao" : "Dev Fullstack",
-            "foto" : "img/Time/daniel1.png",
+            "foto" : "src/assets/img/Time/daniel1.png",
             "tamImg" : 500,
             "redes_sociais" : [
                 { 
