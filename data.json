@@ -2,12 +2,12 @@
    "Projetos": [
         {
             "empresa": "TechGizmo",
-            "imagem": "src/assets/site1.png",
+            "imagem": "./src/assets/site1.png",
             "link": "https://defensoria.ma.def.br/dpema/"
         },
         {
             "empresa": "DK Advocacia",
-            "imagem": "src/assets/img/Projetos/site2.PNG",
+            "imagem": "../src/assets/img/Projetos/site2.PNG",
             "link": "https://daniel99korban.github.io/projeto-de-site-escritorio-de-advocacia/"
         },
         {
