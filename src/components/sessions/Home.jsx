@@ -1,15 +1,16 @@
-import React from 'react'
+import React from 'react';
+import homeImg from '../../assets/img1.jpg';
 
 
 const Home = () => {
     return(
-        <div id="home" className=" relative inset-0 bg-cover bg-center h-screen" style={{backgroundImage: "url('../assets/img1.jpg')"}}>
+    <div id="home" className=" relative inset-0 bg-cover bg-center h-screen" style={{backgroundImage: "url("+homeImg+")"}}>
             <div className="absolute w-full h-full bg-black opacity-50" />
             <div className="relative flex z-10 flex-col justify-center items-center h-screen">
                 <h1 className="text-white text-center text-4xl font-bold mb-4 lg:text-5xl">
                     Mostre seu trabalho para o mundo 
                     <br />
-                    com um site personalizadooooooooooo
+                    com um site personalizado teste
                 </h1>
                 <p className="text-white text-center text-2xl mb-24">
                     Sua presença online inicia aqui
