@@ -54,7 +54,7 @@ const ImageCarousel = () => {
   };
 
   return (
-    <div className="relative flex flex-col bg-gray-dark m-auto p-auto">
+    <div className="relative flex flex-col bg-gray-dark m-auto p-auto ">
       <div
         className="flex overflow-x-scroll  pt-20 hide-scroll-bar no-select"
         ref={carouselRef}
@@ -62,7 +62,7 @@ const ImageCarousel = () => {
         onMouseLeave={handleMouseLeave}
         onMouseUp={handleMouseUp}
         onMouseMove={handleMouseMove}
-        style={{ cursor: 'default', overflowX: 'hidden', marginLeft: 'auto', marginRight : 'auto'}}
+        style={{ cursor: 'default', overflowX: 'hidden', display: 'flex', justifyContent: 'center', alignItems: 'center' }}
       >
         <div className="flex flex-nowrap ">
           {projetos.map((projeto, index) => (
