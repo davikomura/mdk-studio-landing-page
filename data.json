@@ -56,7 +56,7 @@
         {
             "nome" : "Felipe Macedo",
             "funcao" : "Dev Fullstack",
-            "foto" : "/img/Time/felipe1.png",
+            "foto" : "/img/Time/felipe.jpg",
             "tamImg" : 500,
             "redes_sociais" : [
                 { 
@@ -91,7 +91,7 @@
         {
             "nome" : "Daniel Korban",
             "funcao" : "Dev Fullstack",
-            "foto" : "/img/Time/daniel1.png",
+            "foto" : "/img/Time/daniel.jpg",
             "tamImg" : 500,
             "redes_sociais" : [
                 { 
