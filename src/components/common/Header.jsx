@@ -43,7 +43,7 @@ const Header = () => {
                         </div>
                         <div className="hidden sm:ml-6 sm:block">
                         <div className="flex space-x-4">
-                                <a href="#Servicos" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar" aria-current="page">Serviços</a>
+                                <a href="#servicos" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar" aria-current="page">Serviços</a>
                             
                            
                                 <a href="#galeria" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar">Galeria</a>
@@ -65,7 +65,7 @@ const Header = () => {
                 <div className={`sm:hidden ${menuOpen ? 'block' : 'hidden'}`}  id="mobile-menu">
                     <div className="space-y-1 px-2 pb-3 pt-2">
                         {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
-                        <a href="#planos" className="block rounded-md bg-white-900 px-3 py-2 text-base font-medium text-white" aria-current="page">Planos</a>
+                        <a href="#servicos" className="block rounded-md bg-white-900 px-3 py-2 text-base font-medium text-white" aria-current="page">Serviços</a>
                         <a href="#galeria" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Galeria</a>
                         <a href="#about" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">Sobre Nós</a>
                         <a href="#FAQ" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white">FAQ</a>
