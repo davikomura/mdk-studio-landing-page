@@ -5,7 +5,7 @@ import data from '/data.json';
 
 export const Servicos = () => {
     return (
-        <div id="Servicos" className="bg-black w-full min-h-screen inset-0">
+        <div id="Servicos" className="bg-black w-full md-h-screen inset-0 pb-12">
             <div className="relative z-10 pt-40">
                 <h2 className="text-xl text-white font-bold leading-tight text-center sm:text-5xl">Serviços</h2>
                 <p className='text-center mt-8 text-gray-200 flex justify-center'>

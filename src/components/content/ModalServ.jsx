@@ -26,7 +26,7 @@ const ModalServ = ({ servico, onClose }) => {
 
             {showModal && (
                 <div className="fixed inset-0 z-50 flex justify-center items-center bg-black bg-opacity-75">
-                    <div className="bg-black rounded-lg p-8 w-11/12 md:w-2/5">
+                    <div className="bg-black rounded-lg p-8 w-11/12 md:w-2/5 border-2 border-indigo-600">
                         <div className="flex justify-between items-center mb-4">
                             <h3 className="text-white text-3xl font-semibold">{servico.tipo}</h3>
                             <button className="text-gray-500" onClick={handleModalClose}>
