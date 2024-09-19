@@ -70,8 +70,7 @@ const About = () => {
                         ))}
                     </div>
                 </div>
-
-                <hr className="h-px mt-20 bg-gray-200 border-0 bg-gray-700 relative" />
+                <hr className="h-px bg-gray-200 border-0 dark:bg-gray-700"></hr>
             </section>
         </>
     );

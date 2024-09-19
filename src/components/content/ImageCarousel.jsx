@@ -56,7 +56,7 @@ const ImageCarousel = () => {
   return (
     <div className="relative flex flex-col bg-gray-dark m-auto p-auto ">
       <div
-        className="flex overflow-x-scroll  pt-20 hide-scroll-bar no-select"
+        className="flex overflow-x-scroll pt-20 hide-scroll-bar no-select"
         ref={carouselRef}
         onMouseDown={handleMouseDown}
         onMouseLeave={handleMouseLeave}
