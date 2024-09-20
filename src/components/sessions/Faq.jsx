@@ -17,7 +17,7 @@ const Faq = () => {
       answer: 'Fornecemos treinamento básico para que você possa gerenciar e modificar textos, imagens e outros elementos do site. Se preferir, também podemos realizar as atualizações para você, conforme necessário.',
     },
     {
-      question: 'Vocês podem me ajudar a escolher um nome de domínio?',
+      question: 'A MDK Studio pode me ajudar a escolher um nome de domínio?',
       answer: 'Sim, podemos ajudar você a escolher um nome de domínio. Consideramos fatores como relevância para o seu negócio, facilidade de memorização e disponibilidade. Oferecemos orientações e sugestões para encontrar um nome que se encaixe bem com a identidade da sua marca e esteja disponível para registro.',
     },
     {
@@ -25,11 +25,11 @@ const Faq = () => {
       answer: 'O prazo pode variar dependendo da complexidade do projeto, mas geralmente o desenvolvimento de um site simples leva entre 2 a 3 semanas. Projetos mais complexos, como aplicações web ou sites com funcionalidades avançadas, podem levar mais tempo.',
     },
     {
-      question: 'Vocês oferecem suporte técnico após o lançamento do site?',
+      question: 'A MDK Studio oferece suporte técnico após o lançamento do site?',
       answer: 'Sim, oferecemos suporte técnico após o lançamento do site. Isso inclui correção de problemas, atualizações de segurança, ajustes necessários e orientação sobre como gerenciar o conteúdo. Estamos aqui para garantir que seu site continue funcionando bem e atenda às suas necessidades.',
     },
     {
-      question: 'Vocês oferecem serviços de hospedagem?',
+      question: 'A MDK Studio oferece serviços de hospedagem?',
       answer: 'Oferecemos recomendações para serviços de hospedagem e podemos ajudar a configurar o ambiente de hospedagem, mas não fornecemos serviços de hospedagem diretamente.',
     },
     {
