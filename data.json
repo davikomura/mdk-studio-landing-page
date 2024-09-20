@@ -1,9 +1,9 @@
 {
    "Projetos": [
         {
-            "empresa": "TechGizmo",
+            "empresa": "DK Cycle Shop",
             "imagem": "/img/Projetos/site1.png",
-            "link": "https://defensoria.ma.def.br/dpema/"
+            "link": "https://dkcycleshop.vercel.app/"
         },
         {
             "empresa": "DK Advocacia",

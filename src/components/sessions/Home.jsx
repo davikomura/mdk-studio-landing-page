@@ -10,7 +10,7 @@ const Home = () => {
                 <h1 className="text-white text-center text-4xl font-bold mb-4 lg:text-5xl">
                     Mostre seu trabalho para o mundo 
                     <br />
-                    com um site personalizado teste
+                    com um site personalizado.
                 </h1>
                 <p className="text-white text-center text-2xl mb-24">
                     Sua presença online inicia aqui
