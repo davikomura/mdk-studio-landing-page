@@ -21,7 +21,7 @@ function App() {
       <About/>
       <Faq/>
       <Formulario/>
-      <Footer/> 
+      <Footer/>
     </>
   )
 }
