@@ -14,6 +14,11 @@
             "empresa": "Sushiman",
             "imagem": "/img/Projetos/sushibar.png",
             "link": "https://mdk-restaurant-website.vercel.app/"
+        },
+        {
+            "empresa": "Salão Mary",
+            "imagem": "/img/Projetos/salao.png",
+            "link": "https://salao-mary-beauty-hair.vercel.app/"
         }
     ],
 
