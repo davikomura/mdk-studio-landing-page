@@ -25,7 +25,7 @@
     "dadosTime" : [
         {
             "nome" : "Davi Komura",
-            "funcao" : "Dev Fullstack", 
+            "funcao" : "Cofundador & Dev Frontend", 
             "foto" : "/img/Time/davi.jpg",
             "tamImg" : 500,
             "redes_sociais" : [
@@ -45,7 +45,7 @@
         },
         {
             "nome" : "Felipe Macedo",
-            "funcao" : "Dev Fullstack",
+            "funcao" : "Cofundador & Dev Fullstack",
             "foto" : "/img/Time/felipe.jpg",
             "tamImg" : 500,
             "redes_sociais" : [
@@ -65,7 +65,7 @@
         },
         {
             "nome" : "Daniel Korban",
-            "funcao" : "Dev Fullstack",
+            "funcao" : "Cofundador & Dev Backend",
             "foto" : "/img/Time/daniel.jpg",
             "tamImg" : 500,
             "redes_sociais" : [
