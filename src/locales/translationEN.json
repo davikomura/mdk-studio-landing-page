@@ -1,0 +1,125 @@
+{
+  "header": {
+    "services": "Services",
+    "gallery": "Gallery",
+    "about": "About Us",
+    "faq": "FAQ"
+  },
+  "home": {
+    "headlinePart1": "Show your work to the world",
+    "headlinePart2": "with a personalized website.",
+    "subheadline": "Your online presence starts here",
+    "button": "Get Started Now"
+  },
+  "services": {
+    "title": "Services",
+    "descriptionPart1": "At MDK, we turn ideas into amazing digital experiences. We offer a full range of services to meet your technology needs,",
+    "descriptionPart2": "ensuring each project is a success from start to finish.",
+    "items": {
+      "websiteDevelopment": {
+        "type": "Website Development",
+        "abstractPart1": "Your website can be the most efficient salesperson for your company.",
+        "abstractPart2": "We create websites that are true conversion machines, optimized to capture leads and close sales.",
+        "description": "Transform your website into a powerful sales tool. Our websites are built with a focus on conversion, ensuring that every visitor can potentially become a customer. We use the best SEO practices, responsive design, and usability to maximize your site's performance. From structure to content, everything is designed to provide a smooth and engaging experience that not only attracts but also retains users. Discover how a well-designed website can boost your sales and strengthen your online presence."
+      },
+      "systemsDevelopment": {
+        "type": "Systems Development",
+        "abstractPart1": "Systems that make your business grow faster.",
+        "abstractPart2": "We develop tailor-made solutions to make your operations more efficient and profitable. Don’t fall behind, implement the technology that will drive your business forward.",
+        "description": "Automate and optimize your company's processes with our custom-built systems. We develop technological solutions tailored to your business's specific needs. Whether for management, control, or internal operations, our systems are designed to increase efficiency and profitability, ensuring your business stays ahead of the market. Explore the possibilities of implementing technology that truly makes a difference in your business's growth and success."
+      },
+      "uxuidesign": {
+        "type": "UX/UI Design",
+        "abstractPart1": "Delighted customers come back every time.",
+        "abstractPart2": "Our designs are not just beautiful; they are strategically designed to capture attention and turn visitors into loyal customers.",
+        "description": "Design is not just about aesthetics; it’s about creating memorable experiences. With our UX/UI service, we ensure every user interaction is intuitive and engaging. Our focus is to create interfaces that not only impress visually but also make navigation easy and convert visitors into loyal customers. Understand how strategic design can transform the perception of your product or service, increasing customer satisfaction and retention."
+      }
+    },
+    "readMore": "More info"
+  },
+  "modalForm": {
+    "buttonLabel": "Request a Quote",
+    "serviceInfoTitle": "Service Information",
+    "successTitle": "Success!",
+    "successMessage": "Your request has been successfully sent! Check your email for confirmation.",
+    "closeButton": "Close"
+  },
+  "formEmail": {
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "service": "Service",
+    "sendRequest": "Send Request",
+    "placeholderName": "Enter your name",
+    "placeholderEmail": "Enter your email",
+    "placeholderPhone": "(xx) xxxxx-xxxx",
+    "placeholderService": "Choose a service",
+    "serviceOption1": "Website Development",
+    "serviceOption2": "System Development",
+    "serviceOption3": "UX/UI Design",
+    "successMessage": "Your request has been sent successfully!",
+    "errorMessage": "Failed to send email. Please try again.",
+    "fillAllFieldsMessage": "Please fill in all fields."
+  },
+  "gallery": {
+    "title": "Gallery",
+    "seeSite": "See Site"
+  },
+  "aboutUs": {
+    "title": "Meet our team",
+    "description": "At MDK Studio, our team of developers is at the heart of what we do. We are dedicated and passionate about creating innovative solutions that turn ideas into reality.",
+    "functionTeam": {
+      "daviFunction": "Co-founder & Frontend Dev",
+      "felipeFunction": "Co-founder & Fullstack Dev",
+      "danielFunction": "Co-founder & Backend Dev"
+    }
+  },
+  "faqs": {
+    "title": "Frequently Asked Questions",
+    "questions": [
+      {
+        "question": "How much does it cost to build a website?",
+        "answer": "The cost depends on several factors, including the project's complexity, number of pages, and specific features required. We offer personalized quotes based on your needs and requirements."
+      },
+      {
+        "question": "How can I update my website content after it's finished?",
+        "answer": "We provide basic training so you can manage and modify texts, images, and other site elements. If you prefer, we can also handle updates for you as needed."
+      },
+      {
+        "question": "Can MDK Studio help me choose a domain name?",
+        "answer": "Yes, we can help you choose a domain name. We consider factors such as relevance to your business, ease of memorization, and availability. We offer guidance and suggestions to find a name that fits your brand identity and is available for registration."
+      },
+      {
+        "question": "How long does it take to complete my website?",
+        "answer": "The timeline may vary depending on the project's complexity, but generally, a simple website takes 2 to 3 weeks to develop. More complex projects, such as web applications or advanced functionality, may take longer."
+      },
+      {
+        "question": "Does MDK Studio offer technical support after the website is launched?",
+        "answer": "Yes, we offer technical support after the website is launched. This includes bug fixes, security updates, necessary adjustments, and guidance on managing content. We're here to ensure your website continues to run smoothly and meets your needs."
+      },
+      {
+        "question": "Does MDK Studio provide hosting services?",
+        "answer": "We offer recommendations for hosting services and can help set up the hosting environment, but we do not provide hosting services directly."
+      },
+      {
+        "question": "How can I get in touch to request a quote or consultation?",
+        "answer": "You can contact us through the form on our website, via email, or by phone. We're available to discuss your needs and provide a personalized quote."
+      }
+    ]
+  },
+  "form": {
+    "contactUs": "Contact us",
+    "title": "Talk to our team",
+    "description": "We'd love to hear from you. Please fill out this form or send us an email.",
+    "email": {
+      "title": "Email",
+      "text": "Our team is here to help",
+      "address": "mdkstudioslz@gmail.com"
+    },
+    "phone": {
+      "title": "Phone",
+      "text": "Monday to Friday from 8am to 5pm.",
+      "number": "+55 (98) 98103-8642"
+    }
+  }
+}

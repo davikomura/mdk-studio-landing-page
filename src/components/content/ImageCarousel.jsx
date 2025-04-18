@@ -1,8 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { useTranslation } from "react-i18next";
 import data from '/data.json';
 
 const ImageCarousel = () => {
+  const { t } = useTranslation();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isDragging, setIsDragging] = useState(false);
   const [startX, setStartX] = useState(0);
@@ -79,7 +80,7 @@ const ImageCarousel = () => {
                 <div className="absolute left-0 right-0 bottom-5 flex flex-col justify-center items-center">
                   <a href={projeto.link} target="_blank" rel="noopener noreferrer">
                     <button className="text-white bg-custom-color hover:bg-gray-700 font-bold py-2 px-8 rounded-lg">
-                      Ver Site
+                      {t('gallery.seeSite')}
                     </button>
                   </a>
                 </div>

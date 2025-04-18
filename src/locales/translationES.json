@@ -1,0 +1,125 @@
+{
+  "header": {
+    "services": "Servicios",
+    "gallery": "Galería",
+    "about": "Acerca de nosotros",
+    "faq": "FAQ"
+  },
+  "home": {
+    "headlinePart1": "Muestra tu trabajo al mundo",
+    "headlinePart2": "con un sitio web personalizado.",
+    "subheadline": "Tu presencia en línea comienza aquí",
+    "button": "Empieza Ahora"
+  },
+  "services": {
+    "title": "Servicios",
+    "descriptionPart1": "En MDK, transformamos ideas en experiencias digitales increíbles. Ofrecemos una gama completa de servicios para satisfacer sus necesidades tecnológicas,",
+    "descriptionPart2": "asegurando que cada proyecto sea un éxito de principio a fin.",
+    "items": {
+      "websiteDevelopment": {
+        "type": "Desarrollo de Sitios Web",
+        "abstractPart1": "Tu sitio web puede ser el vendedor más eficiente de tu empresa.",
+        "abstractPart2": "Creamos sitios web que son verdaderas máquinas de conversión, optimizados para captar leads y cerrar ventas.",
+        "description": "Transforma tu sitio web en una poderosa herramienta de ventas. Nuestros sitios web están creados con un enfoque en la conversión, garantizando que cada visitante pueda convertirse potencialmente en cliente. Utilizamos las mejores prácticas de SEO, diseño responsivo y usabilidad para maximizar el rendimiento de tu sitio. Desde la estructura hasta el contenido, todo está pensado para proporcionar una experiencia fluida y atractiva que no solo atrae, sino que también retiene a los usuarios. Descubre cómo un sitio bien diseñado puede impulsar tus ventas y fortalecer tu presencia en línea."
+      },
+      "systemsDevelopment": {
+        "type": "Desarrollo de Sistemas",
+        "abstractPart1": "Sistemas que hacen crecer tu empresa más rápido.",
+        "abstractPart2": "Desarrollamos soluciones a medida para hacer que tu operación sea más eficiente y rentable. No te quedes atrás, implementa la tecnología que impulsará tu negocio.",
+        "description": "Automatiza y optimiza los procesos de tu empresa con nuestros sistemas personalizados. Desarrollamos soluciones tecnológicas a medida, enfocadas en las necesidades específicas de tu negocio. Ya sea para gestión, control u operaciones internas, nuestros sistemas están diseñados para aumentar la eficiencia y la rentabilidad, asegurando que tu empresa esté siempre un paso adelante en el mercado. Explora las posibilidades de implementar tecnología que realmente marque la diferencia en el crecimiento y éxito de tu negocio."
+      },
+      "uxuidesign": {
+        "type": "Diseño UX/UI",
+        "abstractPart1": "Los clientes encantados vuelven siempre.",
+        "abstractPart2": "Nuestros diseños no solo son bonitos, están estratégicamente pensados para captar la atención y convertir a los visitantes en clientes leales.",
+        "description": "El diseño no se trata solo de estética, sino de crear experiencias memorables. Con nuestro servicio de UX/UI, garantizamos que cada interacción del usuario sea intuitiva y atractiva. Nuestro enfoque es crear interfaces que no solo impresionen visualmente, sino que también faciliten la navegación y conviertan a los visitantes en clientes leales. Descubre cómo un diseño estratégico puede transformar la percepción de tu producto o servicio, aumentando la satisfacción y fidelización de los clientes."
+      }
+    },
+    "readMore": "Saber más"
+  },
+  "modalForm": {
+    "buttonLabel": "Solicitar Presupuesto",
+    "serviceInfoTitle": "Información del Servicio",
+    "successTitle": "¡Éxito!",
+    "successMessage": "¡Su solicitud ha sido enviada con éxito! Revise su correo electrónico para la confirmación.",
+    "closeButton": "Cerrar"
+  },
+  "formEmail": {
+    "name": "Nombre",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "service": "Servicio",
+    "sendRequest": "Enviar Solicitud",
+    "placeholderName": "Ingrese su nombre",
+    "placeholderEmail": "Ingrese su correo electrónico",
+    "placeholderPhone": "(xx) xxxxx-xxxx",
+    "placeholderService": "Elija un servicio",
+    "serviceOption1": "Desarrollo de Sitios Web",
+    "serviceOption2": "Desarrollo de Sistemas",
+    "serviceOption3": "Diseño UX/UI",
+    "successMessage": "¡Su solicitud ha sido enviada con éxito!",
+    "errorMessage": "Error al enviar el correo electrónico. Inténtelo de nuevo.",
+    "fillAllFieldsMessage": "Por favor, complete todos los campos."
+  },
+  "gallery": {
+    "title": "Galería",
+    "seeSite": "Ver Sitio"
+  },
+  "aboutUs": {
+    "title": "Acerca de nosotros",
+    "description": "En MDK Studio, nuestro equipo de desarrolladores está en el corazón de lo que hacemos. Somos un grupo entregado, apasionado por crear soluciones innovadoras que conviertan las ideas en realidad."
+  },
+  "functionTeam": {
+    "daviFunction": "Cofundador & Dev Frontend",
+    "felipeFunction": "Cofundador & Dev Fullstack",
+    "danielFunction": "Cofundador & Dev Backend"
+  },
+  "faqs": {
+    "title": "Preguntas Frecuentes",
+    "questions": [
+      {
+        "question": "¿Cuánto cuesta construir un sitio web?",
+        "answer": "El costo depende de varios factores, incluida la complejidad del proyecto, el número de páginas y las funcionalidades específicas requeridas. Ofrecemos presupuestos personalizados basados en tus necesidades y requisitos."
+      },
+      {
+        "question": "¿Cómo puedo actualizar el contenido de mi sitio web después de que esté finalizado?",
+        "answer": "Ofrecemos capacitación básica para que puedas gestionar y modificar textos, imágenes y otros elementos del sitio. Si lo prefieres, también podemos realizar las actualizaciones por ti cuando sea necesario."
+      },
+      {
+        "question": "¿MDK Studio puede ayudarme a elegir un nombre de dominio?",
+        "answer": "Sí, podemos ayudarte a elegir un nombre de dominio. Consideramos factores como la relevancia para tu negocio, la facilidad de memorización y la disponibilidad. Ofrecemos orientación y sugerencias para encontrar un nombre que encaje con la identidad de tu marca y que esté disponible para su registro."
+      },
+      {
+        "question": "¿Cuánto tiempo tarda en estar listo mi sitio web?",
+        "answer": "El plazo puede variar según la complejidad del proyecto, pero por lo general, un sitio web simple se desarrolla en 2 a 3 semanas. Proyectos más complejos, como aplicaciones web o sitios con funcionalidades avanzadas, pueden tardar más tiempo."
+      },
+      {
+        "question": "¿MDK Studio ofrece soporte técnico después del lanzamiento del sitio?",
+        "answer": "Sí, ofrecemos soporte técnico después del lanzamiento del sitio. Esto incluye corrección de errores, actualizaciones de seguridad, ajustes necesarios y orientación sobre cómo gestionar el contenido. Estamos aquí para asegurar que tu sitio funcione correctamente y cumpla con tus expectativas."
+      },
+      {
+        "question": "¿MDK Studio ofrece servicios de alojamiento?",
+        "answer": "Ofrecemos recomendaciones de servicios de alojamiento y podemos ayudarte a configurar el entorno de hosting, pero no ofrecemos servicios de alojamiento directamente."
+      },
+      {
+        "question": "¿Cómo puedo contactar para solicitar un presupuesto o consulta?",
+        "answer": "Puedes contactarnos a través del formulario en nuestro sitio web, por correo electrónico o por teléfono. Estamos disponibles para hablar sobre tus necesidades y proporcionarte un presupuesto personalizado."
+      }
+    ]
+  },
+  "form": {
+    "contactUs": "Contáctanos",
+    "title": "Habla con nuestro equipo",
+    "description": "Nos encantaría saber de ti. Por favor, completa este formulario o envíanos un correo electrónico.",
+    "email": {
+      "title": "Correo electrónico",
+      "text": "Nuestro equipo está aquí para ayudarte",
+      "address": "mdkstudioslz@gmail.com"
+    },
+    "phone": {
+      "title": "Teléfono",
+      "text": "De lunes a viernes de 8h a 17h.",
+      "number": "+55 (98) 98103-8642"
+    }
+  }
+}
