@@ -1,8 +1,12 @@
 import React, { useState } from "react";
 import { IoCloseCircle } from "react-icons/io5";
 import { FormWpp } from "./FormWpp";
+import { useTranslation } from 'react-i18next';
 
 const ModalForm = () => {
+
+  const { t } = useTranslation();
+
   const [showModal, setShowModal] = useState(false);
   const [showSuccessModal, setShowSuccessModal] = useState(false);
 
@@ -19,7 +23,7 @@ const ModalForm = () => {
         type="submit"
         onClick={() => setShowModal(true)}
       >
-        Solicitar Orçamento
+        {t("modalForm.buttonLabel")}
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 16 19"
@@ -36,7 +40,7 @@ const ModalForm = () => {
         <div className="fixed inset-0 z-50 flex justify-center items-center bg-black bg-opacity-70">
           <div className="bg-gradient-to-br from-black via-gray-900 to-black rounded-lg p-8 w-11/12 md:w-2/5 border-2 border-indigo-600">
             <div className="flex justify-between items-center mb-4">
-              <h3 className="text-white text-3xl text-center font-semibold">Informações do Serviço</h3>
+              <h3 className="text-white text-3xl text-center font-semibold">{t("modalForm.serviceInfoTitle")}</h3>
               <button className="text-gray-500" onClick={handleModalClose}>
                 <IoCloseCircle size={iconSize} />
               </button>
@@ -49,16 +53,16 @@ const ModalForm = () => {
       {showSuccessModal && (
         <div className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50 z-50">
           <div className="bg-white rounded-lg p-8 max-w-sm w-full">
-            <h2 className="text-xl font-semibold text-center text-green-600">Sucesso!</h2>
+            <h2 className="text-xl font-semibold text-center text-green-600">{t("modelForm.successTitle")}</h2>
             <p className="text-center text-gray-700 mt-4">
-              Sua solicitação foi enviada com sucesso! Verifique seu email para a confirmação.
+              {t("modalForm.successMessage")}
             </p>
             <div className="mt-6 text-center">
               <button
                 onClick={() => setShowSuccessModal(false)}
                 className="bg-blue-500 text-white py-2 px-4 rounded-full hover:bg-blue-600 transition-all"
               >
-                Fechar
+                {t("modalForm.closeButton")}
               </button>
             </div>
           </div>

@@ -1,14 +1,17 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
+
 const Formulario = () => {
+    const { t } = useTranslation();
     return(
         <section class="bg-black">
         <div class="container px-12 py-12 mx-auto">
             <div className='mb-12'>
-                <p class="font-medium text-blue-400">Fale conosco</p>
+                <p class="font-medium text-blue-400">{t("form.contactUS")}</p>
 
-                <h1 class="mt-2 text-2xl font-semibold md:text-3xl text-white">Converse com nossa equipe</h1>
+                <h1 class="mt-2 text-2xl font-semibold md:text-3xl text-white">{t("form.title")}</h1>
 
-                <p class="mt-3 text-gray-300">Adoraríamos ouvir de você. Por favor preencha este formulário ou envie-nos um e-mail.</p>
+                <p class="mt-3 text-gray-300">{t("form.description")}</p>
             </div>
 
 
@@ -20,9 +23,9 @@ const Formulario = () => {
                         </svg>
                     </span>
 
-                    <h2 class="mt-4 text-base font-medium text-white">Email</h2>
-                    <p class="mt-2 text-sm text-gray-300">Nosso time esta aqui para ajudar</p>
-                    <a href='mailto:mdkstudioslz@gmail.com' class="mt-2 text-sm text-blue-400">mdkstudioslz@gmail.com</a>
+                    <h2 class="mt-4 text-base font-medium text-white">{t("form.email.title")}</h2>
+                    <p class="mt-2 text-sm text-gray-300">{t("form.email.text")}</p>
+                    <a href='mailto:mdkstudioslz@gmail.com' class="mt-2 text-sm text-blue-400">{t("form.email.address")}</a>
                 </div>
 
                 <div>
@@ -32,9 +35,9 @@ const Formulario = () => {
                         </svg>
                     </span>
                     
-                    <h2 class="mt-4 text-base font-medium text-white">Telefone</h2>
-                    <p class="mt-2 text-sm text-gray-300">Segunda a Sexta das 8h às 17h.</p>
-                    <a href='tel:+55-98-98103-8642' class="mt-2 text-sm text-blue-400">+55 (98) 98103-8642</a>
+                    <h2 class="mt-4 text-base font-medium text-white">{t("form.phone.title")}</h2>
+                    <p class="mt-2 text-sm text-gray-300">{t("form.phone.text")}</p>
+                    <a href='tel:+55-98-98103-8642' class="mt-2 text-sm text-blue-400">{t("form.phone.number")}</a>
                 </div>
             </div>
         </div>

@@ -1,7 +1,11 @@
 import React, { useState } from 'react';
 import emailjs from '@emailjs/browser';
+import { useTranslation } from "react-i18next";
 
 export const FormWpp = ({ onSuccess, onClose }) => {
+
+  const { t } = useTranslation();
+
   const [formData, setFormData] = useState({
     nome: '',
     Email: '',
@@ -58,14 +62,13 @@ export const FormWpp = ({ onSuccess, onClose }) => {
         );
 
         setFormData({ nome: '', Email: '', telefone: '', servico: '' });
-        onSuccess(); // aciona modal de sucesso
-        onClose(); // fecha modal de formulário
+        onSuccess();
+        onClose(); 
       } catch (error) {
-        console.error('Erro ao enviar email:', error);
-        alert('Erro ao enviar email. Tente novamente.');
+        alert(t("formEmail.errorMessage"));
       }
     } else {
-      alert('Por favor, preencha todos os campos.');
+      alert(t("formEmail.fillAllFieldsMessage"));
     }
   };
 
@@ -78,12 +81,12 @@ export const FormWpp = ({ onSuccess, onClose }) => {
         {/* Nome */}
         <div className="flex flex-col">
           <label className="text-gray-300 text-sm mb-2 font-medium">
-            Nome <span className="text-red-500">*</span>
+            {t('formEmail.name')} <span className="text-red-500">*</span>
           </label>
           <input
             type="text"
             name="nome"
-            placeholder="Digite seu nome"
+            placeholder={t("formEmail.placeholderName")}
             value={formData.nome}
             onChange={handleChange}
             required
@@ -94,12 +97,12 @@ export const FormWpp = ({ onSuccess, onClose }) => {
         {/* Email */}
         <div className="flex flex-col">
           <label className="text-gray-300 text-sm mb-2 font-medium">
-            Email <span className="text-red-500">*</span>
+            {t("formEmail.email")} <span className="text-red-500">*</span>
           </label>
           <input
             type="email"
             name="Email"
-            placeholder="Digite seu email"
+            placeholder={t("formEmail.placeholderEmail")}
             value={formData.Email}
             onChange={handleChange}
             required
@@ -110,12 +113,12 @@ export const FormWpp = ({ onSuccess, onClose }) => {
         {/* Telefone */}
         <div className="flex flex-col">
           <label className="text-gray-300 text-sm mb-2 font-medium">
-            Telefone <span className="text-red-500">*</span>
+            {t("formEmail.phone")} <span className="text-red-500">*</span>
           </label>
           <input
             type="tel"
             name="telefone"
-            placeholder="(xx) xxxxx-xxxx"
+            placeholder={t("formEmail.placeholderPhone")}
             value={formData.telefone}
             onChange={handleChange}
             required
@@ -126,7 +129,7 @@ export const FormWpp = ({ onSuccess, onClose }) => {
         {/* Serviço */}
         <div className="flex flex-col">
           <label className="text-gray-300 text-sm mb-2 font-medium">
-            Serviço <span className="text-red-500">*</span>
+            {t("formEmail.service")} <span className="text-red-500">*</span>
           </label>
           <select
             name="servico"
@@ -135,10 +138,10 @@ export const FormWpp = ({ onSuccess, onClose }) => {
             required
             className="bg-zinc-800 text-white p-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
           >
-            <option value="">Escolha um serviço</option>
-            <option value="Desenvolvimento de Sites">Desenvolvimento de Sites</option>
-            <option value="Desenvolvimento de Sistemas">Desenvolvimento de Sistemas</option>
-            <option value="Design UX/UI">Design UX/UI</option>
+            <option value="">{t("formEmail.placeholderService")}</option>
+            <option value="Desenvolvimento de Sites">{t("formEmail.serviceOption1")}</option>
+            <option value="Desenvolvimento de Sistemas">{t("formEmail.serviceOption2")}</option>
+            <option value="Design UX/UI">{t("formEmail.serviceOption3")}</option>
           </select>
         </div>
       </div>
@@ -148,7 +151,7 @@ export const FormWpp = ({ onSuccess, onClose }) => {
         onClick={handleSubmit}
         className="mt-10 w-full py-4 text-lg font-semibold bg-gradient-to-r from-blue-500 to-indigo-500 text-white rounded-xl hover:opacity-90 transition-all duration-300 shadow-lg shadow-blue-500/30"
       >
-        Enviar Solicitação
+        {t("formEmail.sendRequest")}
       </button>
     </form>
   );
