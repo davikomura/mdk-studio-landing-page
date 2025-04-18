@@ -37,15 +37,17 @@ export const FormWpp = () => {
   };
 
   return (
-    <div className="bg-gradient-to-br from-black via-gray-900 to-black flex">
+    <div className="bg-gradient-to-br from-black via-gray-900 to-black flex justify-center px-4 py-12 sm:px-6 lg:px-8">
       <form
         onSubmit={(e) => e.preventDefault()}
-        className="w-full max-w-3xl bg-zinc-900 p-10 rounded-3xl shadow-2xl border border-zinc-800 animate-fade-in"
+        className="w-full max-w-3xl bg-zinc-900 p-6 sm:p-8 md:p-10 rounded-3xl shadow-2xl border border-zinc-800 animate-fade-in"
       >
-        <div className="grid sm:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
           {/* Nome */}
           <div className="flex flex-col">
-            <label className="text-gray-300 text-sm mb-2 font-medium">Nome <span className="text-red-500">*</span></label>
+            <label className="text-gray-300 text-sm mb-2 font-medium">
+              Nome <span className="text-red-500">*</span>
+            </label>
             <input
               type="text"
               name="nome"
@@ -59,7 +61,9 @@ export const FormWpp = () => {
 
           {/* Email */}
           <div className="flex flex-col">
-            <label className="text-gray-300 text-sm mb-2 font-medium">Email <span className="text-red-500">*</span></label>
+            <label className="text-gray-300 text-sm mb-2 font-medium">
+              Email <span className="text-red-500">*</span>
+            </label>
             <input
               type="email"
               name="Email"
@@ -73,7 +77,9 @@ export const FormWpp = () => {
 
           {/* Telefone */}
           <div className="flex flex-col">
-            <label className="text-gray-300 text-sm mb-2 font-medium">Telefone <span className="text-red-500">*</span></label>
+            <label className="text-gray-300 text-sm mb-2 font-medium">
+              Telefone <span className="text-red-500">*</span>
+            </label>
             <input
               type="tel"
               name="telefone"
@@ -87,7 +93,9 @@ export const FormWpp = () => {
 
           {/* Serviço */}
           <div className="flex flex-col">
-            <label className="text-gray-300 text-sm mb-2 font-medium">Serviço <span className="text-red-500">*</span></label>
+            <label className="text-gray-300 text-sm mb-2 font-medium">
+              Serviço <span className="text-red-500">*</span>
+            </label>
             <select
               name="servico"
               value={formData.servico}
