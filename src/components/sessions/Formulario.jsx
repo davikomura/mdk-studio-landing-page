@@ -7,7 +7,7 @@ const Formulario = () => {
         <section class="bg-black">
         <div class="container px-12 py-12 mx-auto">
             <div className='mb-12'>
-                <p class="font-medium text-blue-400">{t("form.contactUS")}</p>
+                <p class="font-medium text-blue-400">{t("form.contactUs")}</p>
 
                 <h1 class="mt-2 text-2xl font-semibold md:text-3xl text-white">{t("form.title")}</h1>
 
