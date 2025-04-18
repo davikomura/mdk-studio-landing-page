@@ -53,7 +53,7 @@ const ModalForm = () => {
       {showSuccessModal && (
         <div className="fixed inset-0 flex items-center justify-center bg-gray-900 bg-opacity-50 z-50">
           <div className="bg-white rounded-lg p-8 max-w-sm w-full">
-            <h2 className="text-xl font-semibold text-center text-green-600">{t("modelForm.successTitle")}</h2>
+            <h2 className="text-xl font-semibold text-center text-green-600">{t("modalForm.successTitle")}</h2>
             <p className="text-center text-gray-700 mt-4">
               {t("modalForm.successMessage")}
             </p>
