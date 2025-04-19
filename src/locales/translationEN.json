@@ -59,7 +59,8 @@
     "serviceOption3": "UX/UI Design",
     "successMessage": "Your request has been sent successfully!",
     "errorMessage": "Failed to send email. Please try again.",
-    "fillAllFieldsMessage": "Please fill in all fields."
+    "fillAllFieldsMessage": "Please fill in all fields.",
+    "sending": "Sending..."
   },
   "gallery": {
     "title": "Gallery",

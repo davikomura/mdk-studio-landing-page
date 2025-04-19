@@ -59,7 +59,8 @@
     "serviceOption3": "Design UX/UI",
     "successMessage": "Sua solicitação foi enviada com sucesso!",
     "errorMessage": "Erro ao enviar email. Tente novamente.",
-    "fillAllFieldsMessage": "Por favor, preencha todos os campos."
+    "fillAllFieldsMessage": "Por favor, preencha todos os campos.",
+    "sending": "Enviando..."
   },
   "gallery": {
     "title": "Galeria",
