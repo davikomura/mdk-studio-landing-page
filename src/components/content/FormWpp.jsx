@@ -3,7 +3,6 @@ import emailjs from '@emailjs/browser';
 import { useTranslation } from "react-i18next";
 
 export const FormWpp = ({ onSuccess, onClose }) => {
-
   const { t } = useTranslation();
 
   const [formData, setFormData] = useState({
@@ -12,6 +11,8 @@ export const FormWpp = ({ onSuccess, onClose }) => {
     telefone: '',
     servico: '',
   });
+
+  const [isLoading, setIsLoading] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -34,6 +35,7 @@ export const FormWpp = ({ onSuccess, onClose }) => {
     const { nome, Email, telefone, servico } = formData;
 
     if (nome && Email && telefone && servico) {
+      setIsLoading(true);
       try {
         await emailjs.send(
           import.meta.env.VITE_EMAILJS_SERVICE_ID,
@@ -63,9 +65,11 @@ export const FormWpp = ({ onSuccess, onClose }) => {
 
         setFormData({ nome: '', Email: '', telefone: '', servico: '' });
         onSuccess();
-        onClose(); 
+        onClose();
       } catch (error) {
         alert(t("formEmail.errorMessage"));
+      } finally {
+        setIsLoading(false);
       }
     } else {
       alert(t("formEmail.fillAllFieldsMessage"));
@@ -149,9 +153,36 @@ export const FormWpp = ({ onSuccess, onClose }) => {
       <button
         type="button"
         onClick={handleSubmit}
-        className="mt-10 w-full py-4 text-lg font-semibold bg-gradient-to-r from-blue-500 to-indigo-500 text-white rounded-xl hover:opacity-90 transition-all duration-300 shadow-lg shadow-blue-500/30"
+        disabled={isLoading}
+        className={`mt-10 w-full py-4 text-lg font-semibold rounded-xl transition-all duration-300 shadow-lg 
+          ${isLoading
+            ? "bg-gradient-to-r from-blue-400 to-indigo-400 cursor-not-allowed opacity-70"
+            : "bg-gradient-to-r from-blue-500 to-indigo-500 hover:opacity-90"}
+        text-white flex items-center justify-center gap-2`}
       >
-        {t("formEmail.sendRequest")}
+        {isLoading ? (
+          <>
+            <svg className="animate-spin h-5 w-5 text-white" viewBox="0 0 24 24">
+              <circle
+                className="opacity-25"
+                cx="12"
+                cy="12"
+                r="10"
+                stroke="currentColor"
+                strokeWidth="4"
+                fill="none"
+              />
+              <path
+                className="opacity-75"
+                fill="currentColor"
+                d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"
+              />
+            </svg>
+            {t("formEmail.sending")}
+          </>
+        ) : (
+          t("formEmail.sendRequest")
+        )}
       </button>
     </form>
   );
