@@ -1,6 +1,11 @@
 {
    "Projetos": [
         {
+            "empresa": "Love Timelines",
+            "imagem": "/img/Projetos/lovetimelines.PNG",
+            "link": "https://www.lovetimelines.com/"
+        },
+        {
             "empresa": "DK Cycle Shop",
             "imagem": "/img/Projetos/site1.png",
             "link": "https://dkcycleshop.vercel.app/"
