@@ -2,12 +2,11 @@ import React from 'react';
 import data from '/data.json';
 import { useTranslation } from 'react-i18next';
 import { motion } from 'framer-motion';
-import { FaLinkedinIn, FaGithub, FaInstagram } from 'react-icons/fa';
+import { FaLinkedinIn, FaGithub } from 'react-icons/fa';
 
 const iconMap = {
   linkedin: FaLinkedinIn,
   github: FaGithub,
-  instagram: FaInstagram,
 };
 
 const About = () => {

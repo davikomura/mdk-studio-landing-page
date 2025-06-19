@@ -1,14 +1,14 @@
-import React, { useState, useRef, useEffect } from 'react';
-import { useTranslation } from "react-i18next";
+import React, { useState, useRef } from 'react';
+import { useTranslation } from 'react-i18next';
+import { motion } from 'framer-motion';
 import data from '/data.json';
+import { useDraggableScroll } from '../../hooks/useDraggableScroll';
 
 const ImageCarousel = () => {
   const { t } = useTranslation();
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
-  const [isDragging, setIsDragging] = useState(false);
-  const [startX, setStartX] = useState(0);
-  const [scrollLeft, setScrollLeft] = useState(0);
   const carouselRef = useRef(null);
+  useDraggableScroll(carouselRef);
 
   const projetos = data.Projetos.map(projeto => ({
     name: projeto.empresa,
@@ -16,130 +16,93 @@ const ImageCarousel = () => {
     link: projeto.link
   }));
 
+  const scrollToIndex = (index) => {
+    const carousel = carouselRef.current;
+    const imageWidth = carousel.scrollWidth / projetos.length;
+    carousel.scrollTo({ left: index * imageWidth, behavior: 'smooth' });
+  };
+
   const prevSlide = () => {
     const newIndex = currentImageIndex === 0 ? projetos.length - 1 : currentImageIndex - 1;
     setCurrentImageIndex(newIndex);
-    const carousel = carouselRef.current;
-    const imageWidth = carousel.scrollWidth / projetos.length;
-    carousel.scrollLeft = newIndex * imageWidth;
+    scrollToIndex(newIndex);
   };
 
   const nextSlide = () => {
     const newIndex = currentImageIndex === projetos.length - 1 ? 0 : currentImageIndex + 1;
     setCurrentImageIndex(newIndex);
-    const carousel = carouselRef.current;
-    const imageWidth = carousel.scrollWidth / projetos.length;
-    carousel.scrollLeft = newIndex * imageWidth;
-  };
-
-  const handleMouseDown = (e) => {
-    setIsDragging(true);
-    setStartX(e.pageX - carouselRef.current.offsetLeft);
-    setScrollLeft(carouselRef.current.scrollLeft);
-  };
-
-  const handleMouseLeave = () => {
-    setIsDragging(false);
-  };
-
-  const handleMouseUp = () => {
-    setIsDragging(false);
-  };
-
-  const handleMouseMove = (e) => {
-    if (!isDragging) return;
-    e.preventDefault();
-    const x = e.pageX - carouselRef.current.offsetLeft;
-    const walk = (x - startX) * 2; // scroll-fast
-    carouselRef.current.scrollLeft = scrollLeft - walk;
+    scrollToIndex(newIndex);
   };
 
   return (
-    <div className="relative flex flex-col bg-gray-dark m-auto p-auto ">
-      <div
-        className="flex overflow-x-scroll pb-20 pt-20 hide-scroll-bar no-select"
-        ref={carouselRef}
-        onMouseDown={handleMouseDown}
-        onMouseLeave={handleMouseLeave}
-        onMouseUp={handleMouseUp}
-        onMouseMove={handleMouseMove}
-        style={{ cursor: 'default', overflowX: 'hidden' }}
-      >
-        <div className="flex flex-nowrap lg:ml-40 md:ml-20 ml-10 ">
+    <section id="projetos" className="relative bg-black py-20 px-4">
+      <div className="relative overflow-hidden">
+        <div
+          ref={carouselRef}
+          className="flex gap-6 overflow-x-scroll scrollbar-hide px-6 sm:px-16 transition-all duration-500 scroll-smooth snap-x select-none cursor-grab"
+        >
           {projetos.map((projeto, index) => (
-            <div className="inline-block px-3 relative" key={index}>
-              <div
-                className={`w-64 h-96 max-w-xs overflow-hidden rounded-lg shadow-md bg-white hover:shadow-xl transition-shadow duration-300 ease-in-out ${
-                  index === currentImageIndex ? 'border-4 border-blue-500' : ''
-                }`}
-              >
-                <img src={projeto.image} alt={projeto.name} className="w-full h-full object-cover" />
-                <div className="absolute top-0 left-0 right-0 bottom-0 flex flex-col justify-center items-center text-3xl font-bold">
-                  <div className="text-white text-shadow shadow-gray-950">{projeto.name}</div>
-                </div>
-                <div className="absolute left-0 right-0 bottom-5 flex flex-col justify-center items-center">
-                  <a href={projeto.link} target="_blank" rel="noopener noreferrer">
-                    <button className="text-white bg-custom-color hover:bg-gray-700 font-bold py-2 px-8 rounded-lg">
-                      {t('gallery.seeSite')}
-                    </button>
-                  </a>
-                </div>
+            <motion.div
+              key={index}
+              initial={{ opacity: 0, y: 40 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.6, delay: index * 0.1 }}
+              className="snap-center flex-shrink-0 w-72 h-[400px] relative rounded-3xl overflow-hidden shadow-2xl bg-gray-900 border border-gray-700"
+            >
+              <img
+                src={projeto.image}
+                alt={projeto.name}
+                className="w-full h-full object-cover object-center transition-transform duration-500 hover:scale-105"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent z-10" />
+              <div className="absolute bottom-6 left-0 w-full text-center px-4 z-20">
+                <h3 className="text-white text-xl font-semibold mb-2 drop-shadow-md">
+                  {projeto.name}
+                </h3>
+                <a
+                  href={projeto.link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-block text-sm text-white bg-blue-600 hover:bg-blue-500 px-4 py-2 rounded-full shadow-lg transition"
+                >
+                  {t('gallery.seeSite')}
+                </a>
               </div>
-            </div>
+            </motion.div>
           ))}
         </div>
+
+        <button
+          className="absolute top-1/2 left-4 -translate-y-1/2 bg-gray-800/70 hover:bg-gray-700 p-3 rounded-full shadow-lg z-20 transition"
+          onClick={prevSlide}
+          aria-label="Anterior"
+        >
+          <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+            <path d="M15 19l-7-7 7-7" />
+          </svg>
+        </button>
+
+        <button
+          className="absolute top-1/2 right-4 -translate-y-1/2 bg-gray-800/70 hover:bg-gray-700 p-3 rounded-full shadow-lg z-20 transition"
+          onClick={nextSlide}
+          aria-label="Próximo"
+        >
+          <svg className="w-4 h-4 text-white" fill="none" stroke="currentColor" strokeWidth="2" viewBox="0 0 24 24">
+            <path d="M9 5l7 7-7 7" />
+          </svg>
+        </button>
       </div>
-      <button
-        type="button"
-        className="absolute top-0 left-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-        onClick={prevSlide}
-        data-carousel-prev
-      >
-        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-          <svg
-            className="w-4 h-4 text-gray-dark dark:text-gray-800 rtl:rotate-180"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 6 10"
-          >
-            <path
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="M5 1 1 5l4 4"
-            />
-          </svg>
-          <span className="sr-only">Previous</span>
-        </span>
-      </button>
-      <button
-        type="button"
-        className="absolute top-0 right-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
-        onClick={nextSlide}
-        data-carousel-next
-      >
-        <span className="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
-          <svg
-            className="w-4 h-4 text-gray-dark dark:text-gray-800 rtl:rotate-180"
-            aria-hidden="true"
-            xmlns="http://www.w3.org/2000/svg"
-            fill="none"
-            viewBox="0 0 6 10"
-          >
-            <path
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              d="m1 9 4-4-4-4"
-            />
-          </svg>
-          <span className="sr-only">Next</span>
-        </span>
-      </button>
-    </div>
+
+      <style>{`
+        .scrollbar-hide::-webkit-scrollbar {
+          display: none;
+        }
+        .scrollbar-hide {
+          -ms-overflow-style: none;
+          scrollbar-width: none;
+        }
+      `}</style>
+    </section>
   );
 };
 
