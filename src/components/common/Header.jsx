@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import logo from "../../assets/image.png";
 import { LanguageDropdown } from "../content/LanguageDropdown";
 import { useTranslation } from 'react-i18next';
@@ -13,12 +13,12 @@ const Header = () => {
     };
 
     return (
-        <header className="fixed top-0 left-0 right-0 flex  font-sans min-h-[70px] tracking-wide z-50">
-            <nav className="bg-gray-800 fixed top-0 left-0 right-0 shadow-md py-4 px-4 sm:px-10 bg-transparent max-lg:bg-[#202626]  max-lg: backdrop-blur-sm bg-black/10">
+        <header className="fixed top-0 left-0 right-0 flex font-sans min-h-[70px] tracking-wide z-50">
+            <nav className="bg-gray-800 fixed top-0 left-0 right-0 shadow-md py-4 px-4 sm:px-10 bg-transparent backdrop-blur-sm bg-black/10">
                 <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                     <div className="relative flex h-16 items-center justify-between">
                         <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                            <button type="button" onClick={toggleMenu} className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
+                            <button type="button" onClick={toggleMenu} className="relative inline-flex items-center justify-center rounded-md p-2 text-gray-400 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-controls="mobile-menu" aria-expanded="false">
                                 <span className="absolute -inset-0.5"></span>
                                 <span className="sr-only">Open main menu</span>
                                 <svg className="block h-6 w-6" fill="none" viewBox="0 0 24 24" strokeWidth="1.5" stroke="currentColor" aria-hidden="true">
@@ -57,13 +57,11 @@ const Header = () => {
                     </div>
                 </div>
 
-                {/* Mobile menu, show/hide based on menu state. */}
                 <div
                 className={`sm:hidden ${menuOpen ? "block" : "hidden"}`}
                 id="mobile-menu"
                 >
                     <div className="space-y-1 px-2 pb-3 pt-2">
-                        {/* Current: "bg-gray-900 text-white", Default: "text-gray-300 hover:bg-gray-700 hover:text-white" */}
                         <a
                         href="#servicos"
                         className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"

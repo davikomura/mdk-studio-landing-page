@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { IoCloseCircle } from "react-icons/io5";
 import { FormWpp } from "./FormWpp";
 import { useTranslation } from "react-i18next";
