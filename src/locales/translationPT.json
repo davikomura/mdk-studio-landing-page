@@ -1,7 +1,7 @@
 {
   "header": {
     "services": "Serviços",
-    "gallery": "Galeria",
+    "gallery": "Projetos",
     "about": "Sobre nós",
     "faq": "FAQ"
   },
@@ -63,8 +63,7 @@
     "sending": "Enviando..."
   },
   "gallery": {
-    "title": "Galeria",
-    "seeSite": "Ver Site"
+    "title": "Projetos"
   },
   "aboutUs": {
     "title": "Conheça nosso time",
