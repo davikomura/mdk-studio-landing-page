@@ -1,12 +1,12 @@
 import Header from './components/common/Header'
 import Footer from './components/common/Footer'
 import Home from './components/sessions/Home';
-import { Galeria } from './components/sessions/Galeria';
 import About from './components/sessions/About';
 import Faq from './components/sessions/Faq';
 import Formulario from './components/sessions/Formulario';
 import { Servicos } from './components/sessions/Servicos';
 import { useNavigatorLanguage } from "./hooks/useNavigatorLanguage";
+import ProjetosSection from './components/sessions/ProjetosSection';
 
 function App() {
   useNavigatorLanguage();
@@ -15,7 +15,7 @@ function App() {
       <Header/>
       <Home/>
       <Servicos/>
-      <Galeria/>
+      <ProjetosSection />
       <About/>
       <Faq/>
       <Formulario/>

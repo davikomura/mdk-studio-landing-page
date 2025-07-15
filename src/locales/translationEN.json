@@ -1,7 +1,7 @@
 {
   "header": {
     "services": "Services",
-    "gallery": "Gallery",
+    "gallery": "Projects",
     "about": "About Us",
     "faq": "FAQ"
   },
@@ -63,8 +63,7 @@
     "sending": "Sending..."
   },
   "gallery": {
-    "title": "Gallery",
-    "seeSite": "See Site"
+    "title": "Projects"
   },
   "aboutUs": {
     "title": "Meet our team",

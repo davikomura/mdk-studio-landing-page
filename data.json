@@ -1,29 +1,19 @@
 {
    "Projetos": [
         {
+            "empresa": "UpaonBike",
+            "imagem": "/img/Projetos/UpaonBikeSemFundo.png",
+            "link": "https://upaonbike-front.vercel.app/"
+        },
+        {
             "empresa": "Love Timelines",
-            "imagem": "/img/Projetos/lovetimelines.PNG",
+            "imagem": "/img/Projetos/lovetimelines.png",
             "link": "https://www.lovetimelines.com/"
         },
         {
             "empresa": "DK Cycle Shop",
             "imagem": "/img/Projetos/site1.png",
             "link": "https://dkcycleshop.vercel.app/"
-        },
-        {
-            "empresa": "DK Advocacia",
-            "imagem": "/img/Projetos/site2.PNG",
-            "link": "https://daniel99korban.github.io/projeto-de-site-escritorio-de-advocacia/"
-        },
-        {
-            "empresa": "Sushiman",
-            "imagem": "/img/Projetos/sushibar.png",
-            "link": "https://mdk-restaurant-website.vercel.app/"
-        },
-        {
-            "empresa": "Salão Mary",
-            "imagem": "/img/Projetos/salao.png",
-            "link": "https://salao-mary-beauty-hair.vercel.app/"
         }
     ],
 

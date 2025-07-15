@@ -44,7 +44,7 @@ const Header = () => {
                             <div className="hidden sm:ml-6 sm:block">
                                 <div className="flex space-x-4">
                                     <a href="#servicos" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar" aria-current="page">{t('header.services')}</a>
-                                    <a href="#galeria" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar">{t('header.gallery')}</a>
+                                    <a href="#projects" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar">{t('header.gallery')}</a>
                                     <a href="#about" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar">{t('header.about')}</a>
                                     <a href="#FAQ" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar">{t('header.faq')}</a>
                                 </div>
@@ -70,7 +70,7 @@ const Header = () => {
                         {t('header.services')}
                         </a>
                         <a
-                        href="#galeria"
+                        href="#projects"
                         className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
                         >
                         {t('header.gallery')}
