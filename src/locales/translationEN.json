@@ -17,16 +17,16 @@
     "descriptionPart2": "ensuring each project is a success from start to finish.",
     "items": {
       "websiteDevelopment": {
-        "type": "Website Development",
-        "abstractPart1": "Your website can be the most efficient salesperson for your company.",
-        "abstractPart2": "We create websites that are true conversion machines, optimized to capture leads and close sales.",
-        "description": "Transform your website into a powerful sales tool. Our websites are built with a focus on conversion, ensuring that every visitor can potentially become a customer. We use the best SEO practices, responsive design, and usability to maximize your site's performance. From structure to content, everything is designed to provide a smooth and engaging experience that not only attracts but also retains users. Discover how a well-designed website can boost your sales and strengthen your online presence."
+        "type": "Web & Systems Development",
+        "abstractPart1": "Your website can be your company's most efficient sales tool.",
+        "abstractPart2": "We create personalized digital solutions, combining optimized websites and custom systems to deliver real results.",
+        "description": "Turn your digital presence into a powerful growth tool. We develop websites and systems focused on conversion, performance, and usability. Using best practices in SEO, responsive design, and smart architecture, we help attract, engage, and retain your customers. Our tailored solutions streamline processes, automate tasks, and boost your online presence."
       },
-      "systemsDevelopment": {
-        "type": "Systems Development",
-        "abstractPart1": "Systems that make your business grow faster.",
-        "abstractPart2": "We develop tailor-made solutions to make your operations more efficient and profitable. Don’t fall behind, implement the technology that will drive your business forward.",
-        "description": "Automate and optimize your company's processes with our custom-built systems. We develop technological solutions tailored to your business's specific needs. Whether for management, control, or internal operations, our systems are designed to increase efficiency and profitability, ensuring your business stays ahead of the market. Explore the possibilities of implementing technology that truly makes a difference in your business's growth and success."
+      "consulting": {
+        "type": "Technology Consulting",
+        "abstractPart1": "Smarter decisions, faster results.",
+        "abstractPart2": "We help your company plan and implement tech solutions that drive growth with efficiency and security.",
+        "description": "Our strategic consulting guides your business in making the best technology decisions. We analyze your current situation, identify opportunities, and recommend solutions aligned with your goals. With expertise in innovation and digital transformation, we support decisions that reduce costs, boost productivity, and ensure a competitive edge."
       },
       "uxuidesign": {
         "type": "UX/UI Design",
@@ -54,8 +54,8 @@
     "placeholderEmail": "Enter your email",
     "placeholderPhone": "(xx) xxxxx-xxxx",
     "placeholderService": "Choose a service",
-    "serviceOption1": "Website Development",
-    "serviceOption2": "System Development",
+    "serviceOption1": "Web & Systems Development",
+    "serviceOption2": "Technology Consulting",
     "serviceOption3": "UX/UI Design",
     "successMessage": "Your request has been sent successfully!",
     "errorMessage": "Failed to send email. Please try again.",
