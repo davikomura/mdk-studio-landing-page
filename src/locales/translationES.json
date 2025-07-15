@@ -17,16 +17,16 @@
     "descriptionPart2": "asegurando que cada proyecto sea un éxito de principio a fin.",
     "items": {
       "websiteDevelopment": {
-        "type": "Desarrollo de Sitios Web",
-        "abstractPart1": "Tu sitio web puede ser el vendedor más eficiente de tu empresa.",
-        "abstractPart2": "Creamos sitios web que son verdaderas máquinas de conversión, optimizados para captar leads y cerrar ventas.",
-        "description": "Transforma tu sitio web en una poderosa herramienta de ventas. Nuestros sitios web están creados con un enfoque en la conversión, garantizando que cada visitante pueda convertirse potencialmente en cliente. Utilizamos las mejores prácticas de SEO, diseño responsivo y usabilidad para maximizar el rendimiento de tu sitio. Desde la estructura hasta el contenido, todo está pensado para proporcionar una experiencia fluida y atractiva que no solo atrae, sino que también retiene a los usuarios. Descubre cómo un sitio bien diseñado puede impulsar tus ventas y fortalecer tu presencia en línea."
+        "type": "Desarrollo Web y de Sistemas",
+        "abstractPart1": "Tu sitio web puede ser la herramienta de ventas más eficiente de tu empresa.",
+        "abstractPart2": "Creamos soluciones digitales personalizadas, combinando sitios optimizados y sistemas a medida para obtener resultados reales.",
+        "description": "Convierte tu presencia digital en una poderosa herramienta de crecimiento. Desarrollamos sitios web y sistemas enfocados en conversión, rendimiento y usabilidad. Aplicamos las mejores prácticas de SEO, diseño responsivo y arquitectura inteligente para atraer, involucrar y fidelizar a tus clientes. Nuestras soluciones a medida optimizan procesos, automatizan tareas y potencian tu presencia en línea."
       },
-      "systemsDevelopment": {
-        "type": "Desarrollo de Sistemas",
-        "abstractPart1": "Sistemas que hacen crecer tu empresa más rápido.",
-        "abstractPart2": "Desarrollamos soluciones a medida para hacer que tu operación sea más eficiente y rentable. No te quedes atrás, implementa la tecnología que impulsará tu negocio.",
-        "description": "Automatiza y optimiza los procesos de tu empresa con nuestros sistemas personalizados. Desarrollamos soluciones tecnológicas a medida, enfocadas en las necesidades específicas de tu negocio. Ya sea para gestión, control u operaciones internas, nuestros sistemas están diseñados para aumentar la eficiencia y la rentabilidad, asegurando que tu empresa esté siempre un paso adelante en el mercado. Explora las posibilidades de implementar tecnología que realmente marque la diferencia en el crecimiento y éxito de tu negocio."
+      "consulting": {
+        "type": "Consultoría en Tecnología",
+        "abstractPart1": "Decisiones más inteligentes, resultados más rápidos.",
+        "abstractPart2": "Ayudamos a tu empresa a planificar e implementar soluciones tecnológicas que impulsen el crecimiento con eficiencia y seguridad.",
+        "description": "Nuestra consultoría estratégica guía a tu negocio en la toma de las mejores decisiones tecnológicas. Analizamos tu situación actual, identificamos oportunidades y recomendamos soluciones alineadas con tus objetivos. Con experiencia en innovación y transformación digital, apoyamos decisiones que reducen costos, aumentan la productividad y aseguran una ventaja competitiva."
       },
       "uxuidesign": {
         "type": "Diseño UX/UI",
@@ -54,8 +54,8 @@
     "placeholderEmail": "Ingrese su correo electrónico",
     "placeholderPhone": "(xx) xxxxx-xxxx",
     "placeholderService": "Elija un servicio",
-    "serviceOption1": "Desarrollo de Sitios Web",
-    "serviceOption2": "Desarrollo de Sistemas",
+    "serviceOption1": "Desarrollo Web y de Sistemas",
+    "serviceOption2": "Consultoría en Tecnología",
     "serviceOption3": "Diseño UX/UI",
     "successMessage": "¡Su solicitud ha sido enviada con éxito!",
     "errorMessage": "Error al enviar el correo electrónico. Inténtelo de nuevo.",

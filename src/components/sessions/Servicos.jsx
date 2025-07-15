@@ -1,4 +1,3 @@
-import React from 'react';
 import ModalServ from '../content/ModalServ';
 import ModalForm from '../content/ModalForm';
 import data from '/data.json';
