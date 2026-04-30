@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import homeImg from "../../assets/img1.jpg";
 import { useTranslation } from "react-i18next";
+import ModalForm from "../content/ModalForm";
 
 const Home = () => {
   const { t } = useTranslation();
@@ -11,16 +12,16 @@ const Home = () => {
       className="relative inset-0 bg-fixed bg-cover bg-center h-screen"
       style={{ backgroundImage: `url(${homeImg})` }}
     >
-      <div className="absolute w-full h-full bg-black opacity-50" />
+      <div className="absolute w-full h-full bg-gradient-to-b from-black/80 via-black/60 to-black" />
       <div className="relative flex z-10 flex-col justify-center items-center h-screen px-4 text-center">
         <motion.h1
           initial={{ opacity: 0, y: 40 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="text-white text-4xl font-bold mb-4 lg:text-5xl"
+          className="text-white text-5xl md:text-6xl lg:text-7xl font-display font-bold mb-6 tracking-tight"
         >
           {t("home.headlinePart1")} <br />
-          {t("home.headlinePart2")}
+          <span className="text-gradient">{t("home.headlinePart2")}</span>
         </motion.h1>
 
         <motion.p
@@ -32,19 +33,17 @@ const Home = () => {
           {t("home.subheadline")}
         </motion.p>
 
-        <motion.button
+        <motion.div
           initial={{ opacity: 0, scale: 0.95 }}
           animate={{ opacity: 1, scale: 1 }}
-          whileHover={{ scale: 1.05 }}
-          whileTap={{ scale: 0.95 }}
           transition={{ duration: 0.4, ease: "easeInOut" }}
-          onClick={() => window.open("https://api.whatsapp.com/send?phone=5598981600041", "_blank")}
-          className="relative z-10 px-6 py-3 text-lg font-medium text-white rounded-full bg-white border border-zinc-700 overflow-hidden shadow-md hover:shadow-emerald-500/30 transition-all duration-300 group"
         >
-          <span className="absolute inset-0 bg-gradient-to-r from-emerald-500 to-cyan-500 opacity-0 group-hover:opacity-10 transition duration-300 blur-sm"></span>
-          <span className="relative z-10 text-black"> {t("home.button")} </span>
-          <span className="absolute inset-0 rounded-full border border-transparent group-hover:border-emerald-500 transition duration-500" />
-        </motion.button>
+          <ModalForm 
+            buttonText={t("home.button")}
+            icon={false}
+            buttonClassName="relative z-10 px-8 py-4 text-lg font-medium text-white rounded-full bg-brand-accent/10 border border-brand-accent/50 overflow-hidden shadow-[0_0_20px_rgba(16,185,129,0.3)] hover:shadow-[0_0_30px_rgba(16,185,129,0.5)] hover:bg-brand-accent/20 transition-all duration-300 group inline-flex items-center"
+          />
+        </motion.div>
       </div>
     </div>
   );

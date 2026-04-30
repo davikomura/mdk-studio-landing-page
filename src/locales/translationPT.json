@@ -20,19 +20,19 @@
         "type": "Desenvolvimento Web & Sistemas",
         "abstractPart1": "Seu site pode ser o vendedor mais eficiente da sua empresa.",
         "abstractPart2": "Criamos soluções digitais personalizadas, unindo sites otimizados e sistemas sob medida para gerar resultados reais.",
-        "description": "Transforme sua presença digital em uma poderosa ferramenta de crescimento. Desenvolvemos sites e sistemas focados em conversão, performance e usabilidade. Utilizamos as melhores práticas de SEO, design responsivo e arquitetura inteligente para atrair, engajar e fidelizar seus clientes. Nossas soluções são feitas sob medida para otimizar processos, automatizar tarefas e impulsionar sua presença online."
+        "description": "Soluções digitais de alta performance feitas sob medida. Foco total em <strong class=\"text-white font-medium\">conversão, usabilidade e design premium</strong>. Mais do que um simples site, construímos uma máquina capaz de atrair e fidelizar clientes para o seu negócio 24 horas por dia."
       },
       "consulting": {
         "type": "Consultoria em Tecnologia",
         "abstractPart1": "Decisões mais inteligentes, resultados mais rápidos.",
         "abstractPart2": "Ajudamos sua empresa a planejar e implementar soluções tecnológicas que geram crescimento com eficiência e segurança.",
-        "description": "Nossa consultoria estratégica orienta seu negócio nas melhores escolhas em tecnologia. Analisamos seu cenário atual, identificamos oportunidades e recomendamos soluções alinhadas aos seus objetivos. Com expertise em inovação e transformação digital, apoiamos decisões que reduzem custos, aumentam a produtividade e garantem vantagem competitiva."
+        "description": "Decisões inteligentes que reduzem custos e escalam lucros. Analisamos seu cenário e desenhamos o <strong class=\"text-white font-medium\">roteiro tecnológico ideal</strong> para sua empresa crescer com enorme vantagem competitiva."
       },
       "uxuidesign": {
         "type": "Design UX/UI",
         "abstractPart1": "Clientes encantados voltam sempre.",
         "abstractPart2": " Nossos designs não são apenas bonitos, são estrategicamente pensados para prender a atenção e converter visitantes em clientes fiéis.",
-        "description": "O design não se trata apenas de estética, mas de criar experiências memoráveis. Com o nosso serviço de UX/UI, garantimos que cada interação do usuário seja intuitiva e envolvente. Nosso foco é criar interfaces que não só impressionam visualmente, mas que também facilitam a navegação e a conversão de visitantes em clientes fiéis. Entenda como o design estratégico pode transformar a percepção do seu produto ou serviço, aumentando a satisfação e retenção de clientes."
+        "description": "Interfaces memoráveis que prendem a atenção do usuário no primeiro segundo. Transformamos complexidade em <strong class=\"text-white font-medium\">experiências fluidas e intuitivas</strong>, desenhadas estrategicamente para gerar conversão, confiança e autoridade."
       }
     },
     "readMore": "Saiba Mais"
@@ -114,7 +114,7 @@
     "email": {
       "title": "Email",
       "text": "Nosso time está aqui para ajudar",
-      "address": "mdkstudioslz@gmail.com"
+      "address": "contato@mdkstudio.com.br"
     },
     "phone": {
       "title": "Telefone",

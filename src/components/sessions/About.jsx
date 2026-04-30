@@ -25,8 +25,8 @@ const About = () => {
         <p className="max-w-2xl mx-auto text-gray-300 text-lg">{t('aboutUs.description')}</p>
       </div>
 
-      <div className="container mx-auto px-4 sm:px-8 lg:px-16 xl:px-32 py-12">
-        <div className="grid gap-10 sm:grid-cols-2 lg:grid-cols-3">
+      <div className="container mx-auto px-4 sm:px-8 lg:px-16 xl:px-32 py-12 mt-10">
+        <div className="flex flex-col lg:flex-row justify-center gap-16 lg:gap-24">
           {dadosTime.map(({ key, nome, foto, redes_sociais }, index) => (
             <motion.div
               key={index}
@@ -34,42 +34,35 @@ const About = () => {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.6, delay: index * 0.1 }}
               viewport={{ once: true }}
-              className="relative group bg-gradient-to-br from-gray-900/80 via-gray-800/80 to-gray-900/80 backdrop-blur-xl rounded-2xl p-6 shadow-md hover:shadow-blue-500/20 transition-all overflow-hidden border border-gray-700"
+              className="relative group flex flex-col items-center text-center w-full lg:w-1/3"
             >
-              <motion.div
-                whileHover={{ scale: 1.05 }}
-                transition={{ type: 'spring', stiffness: 200 }}
-                className="w-full rounded-xl overflow-hidden"
-              >
+              <div className="w-48 h-48 sm:w-64 sm:h-64 rounded-full overflow-hidden mb-8 border border-white/5 group-hover:border-brand-secondary/30 group-hover:shadow-[0_0_30px_rgba(139,92,246,0.15)] transition-all duration-500">
                 <img
                   src={foto}
                   alt={nome}
-                  className="aspect-square object-cover w-full rounded-xl group-hover:brightness-110 transition duration-300"
+                  className="w-full h-full object-cover grayscale opacity-60 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-110 transition-all duration-700 ease-out"
                 />
-              </motion.div>
-              <div className="mt-5 text-center">
-                <h3 className="text-2xl font-semibold capitalize">{nome}</h3>
-                <p className="text-blue-400 mt-1 text-sm tracking-wide uppercase">{t(`aboutUs.functionTeam.${key}`)}</p>
               </div>
+              
+              <h3 className="text-3xl font-display font-medium text-white mb-2 group-hover:text-transparent group-hover:bg-clip-text group-hover:bg-gradient-to-r group-hover:from-white group-hover:to-brand-secondary transition-all duration-300">{nome}</h3>
+              <p className="text-gray-500 font-light text-sm tracking-[0.2em] uppercase mb-6">{t(`aboutUs.functionTeam.${key}`)}</p>
 
-              <div className="flex justify-center mt-4 space-x-4">
+              <div className="flex space-x-6 opacity-0 group-hover:opacity-100 -translate-y-2 group-hover:translate-y-0 transition-all duration-500">
                 {redes_sociais.map((rede, i) => {
                   const Icon = iconMap[rede.nome.toLowerCase()];
                   if (!Icon) return null;
 
                   return (
-                    <motion.a
+                    <a
                       key={i}
                       href={rede.link}
                       target="_blank"
                       rel="noopener noreferrer"
-                      whileHover={{ scale: 1.2 }}
-                      transition={{ type: 'spring', stiffness: 300 }}
-                      className="text-gray-400 hover:text-blue-400 text-xl transition duration-300"
+                      className="text-gray-600 hover:text-white transition duration-300 hover:scale-125"
                       aria-label={rede.nome}
                     >
-                      <Icon />
-                    </motion.a>
+                      <Icon className="w-6 h-6" />
+                    </a>
                   );
                 })}
               </div>
