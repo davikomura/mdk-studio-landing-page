@@ -79,7 +79,7 @@ export const FormWpp = ({ onSuccess, onClose }) => {
   return (
     <form
       onSubmit={(e) => e.preventDefault()}
-      className="w-full bg-zinc-900 p-6 sm:p-8 md:p-10 rounded-3xl shadow-2xl border border-zinc-800 animate-fade-in"
+      className="w-full animate-fade-in"
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
         {/* Nome */}
@@ -94,14 +94,14 @@ export const FormWpp = ({ onSuccess, onClose }) => {
             value={formData.nome}
             onChange={handleChange}
             required
-            className="bg-zinc-800 text-white placeholder-gray-500 p-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
+            className="bg-white/5 text-white placeholder-gray-500 p-4 rounded-xl border border-white/10 focus:border-brand-accent focus:ring-1 focus:ring-brand-accent transition-all duration-300 outline-none"
           />
         </div>
 
         {/* Email */}
         <div className="flex flex-col">
-          <label className="text-gray-300 text-sm mb-2 font-medium">
-            {t("formEmail.email")} <span className="text-red-500">*</span>
+          <label className="text-gray-400 text-sm mb-2 font-medium tracking-wide">
+            {t("formEmail.email")} <span className="text-brand-accent">*</span>
           </label>
           <input
             type="email"
@@ -110,14 +110,14 @@ export const FormWpp = ({ onSuccess, onClose }) => {
             value={formData.Email}
             onChange={handleChange}
             required
-            className="bg-zinc-800 text-white placeholder-gray-500 p-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
+            className="bg-white/5 text-white placeholder-gray-500 p-4 rounded-xl border border-white/10 focus:border-brand-accent focus:ring-1 focus:ring-brand-accent transition-all duration-300 outline-none"
           />
         </div>
 
         {/* Telefone */}
         <div className="flex flex-col">
-          <label className="text-gray-300 text-sm mb-2 font-medium">
-            {t("formEmail.phone")} <span className="text-red-500">*</span>
+          <label className="text-gray-400 text-sm mb-2 font-medium tracking-wide">
+            {t("formEmail.phone")} <span className="text-brand-accent">*</span>
           </label>
           <input
             type="tel"
@@ -126,21 +126,21 @@ export const FormWpp = ({ onSuccess, onClose }) => {
             value={formData.telefone}
             onChange={handleChange}
             required
-            className="bg-zinc-800 text-white placeholder-gray-500 p-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
+            className="bg-white/5 text-white placeholder-gray-500 p-4 rounded-xl border border-white/10 focus:border-brand-accent focus:ring-1 focus:ring-brand-accent transition-all duration-300 outline-none"
           />
         </div>
 
         {/* Serviço */}
         <div className="flex flex-col">
-          <label className="text-gray-300 text-sm mb-2 font-medium">
-            {t("formEmail.service")} <span className="text-red-500">*</span>
+          <label className="text-gray-400 text-sm mb-2 font-medium tracking-wide">
+            {t("formEmail.service")} <span className="text-brand-accent">*</span>
           </label>
           <select
             name="servico"
             value={formData.servico}
             onChange={handleChange}
             required
-            className="bg-zinc-800 text-white p-3 rounded-xl focus:outline-none focus:ring-2 focus:ring-blue-500 transition-all"
+            className="bg-black/50 text-white p-4 rounded-xl border border-white/10 focus:border-brand-accent focus:ring-1 focus:ring-brand-accent transition-all duration-300 outline-none appearance-none"
           >
             <option value="">{t("formEmail.placeholderService")}</option>
             <option value="Desenvolvimento de Sites">{t("formEmail.serviceOption1")}</option>
@@ -154,11 +154,11 @@ export const FormWpp = ({ onSuccess, onClose }) => {
         type="button"
         onClick={handleSubmit}
         disabled={isLoading}
-        className={`mt-10 w-full py-4 text-lg font-semibold rounded-xl transition-all duration-300 shadow-lg 
+        className={`mt-10 w-full py-5 text-lg font-semibold rounded-xl transition-all duration-500 shadow-[0_0_20px_rgba(16,185,129,0.2)] 
           ${isLoading
-            ? "bg-gradient-to-r from-blue-400 to-indigo-400 cursor-not-allowed opacity-70"
-            : "bg-gradient-to-r from-blue-500 to-indigo-500 hover:opacity-90"}
-        text-white flex items-center justify-center gap-2`}
+            ? "bg-white/5 cursor-not-allowed text-gray-500 border border-white/10"
+            : "bg-brand-accent/10 border border-brand-accent hover:bg-brand-accent hover:text-black hover:shadow-[0_0_30px_rgba(16,185,129,0.5)]"}
+        text-brand-accent flex items-center justify-center gap-2`}
       >
         {isLoading ? (
           <>

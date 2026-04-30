@@ -10,15 +10,18 @@ export const Servicos = () => {
   return (
     <section id="servicos" className="bg-black text-white py-24 px-6">
       <div className="max-w-5xl mx-auto text-center">
-        <h2 className="text-4xl sm:text-5xl font-bold">{t('services.title')}</h2>
-        <p className="mt-6 text-gray-300 text-lg">
+        <h2 className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold mb-6 tracking-tight">
+          <span className="text-gradient">{t('services.title')}</span>
+        </h2>
+        <p className="mt-6 text-gray-400 text-lg md:text-xl font-light">
           {t('services.descriptionPart1')}
           <br />
           {t('services.descriptionPart2')}
         </p>
       </div>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-10 max-w-6xl mx-auto mt-16">
+      <div className="flex flex-col w-full max-w-6xl mx-auto mt-20">
+        <div className="border-t border-white/10" />
         {data.Servicos.map((servico, index) => {
           const key = servico.key;
           const titulo = t(`services.items.${key}.type`);
@@ -28,22 +31,34 @@ export const Servicos = () => {
           return (
             <motion.div
               key={index}
-              initial={{ opacity: 0, y: 30 }}
+              initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.1, duration: 0.5 }}
+              transition={{ delay: index * 0.1, duration: 0.6 }}
               viewport={{ once: true }}
-              className="bg-gray-900 p-6 rounded-xl hover:shadow-lg hover:shadow-violet-500/20 transition-transform hover:scale-105"
+              className="group relative flex flex-col lg:flex-row lg:items-center justify-between py-10 md:py-14 border-b border-white/10 hover:bg-white/[0.02] transition-colors duration-500 px-4 md:px-8 cursor-pointer overflow-hidden"
             >
-              <div
-                className="text-violet-500 bg-violet-500/10 p-4 rounded-full inline-block mb-4"
-                dangerouslySetInnerHTML={{ __html: servico.icone }}
-              />
-              <h3 className="text-xl font-semibold">{titulo}</h3>
-              <p className="mt-2 text-gray-400">
-                <strong>{resumopart1}</strong> {resumopart2}
-              </p>
-              <div className="mt-4">
-                <ModalServ servico={servico} onClose={() => {}} />
+              <div className="absolute inset-0 bg-gradient-to-r from-brand-accent/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-700 pointer-events-none" />
+
+              <div className="relative z-10 flex flex-col md:flex-row md:items-center lg:w-5/12 mb-6 lg:mb-0">
+                <span className="text-gray-600 font-display text-xl md:text-2xl mr-8 font-light hidden md:block">0{index + 1}</span>
+                <h3 className="text-4xl md:text-5xl lg:text-5xl font-display font-medium text-white group-hover:text-brand-accent transition-colors duration-500">
+                  {titulo}
+                </h3>
+              </div>
+
+              <div className="relative z-10 lg:w-6/12 flex items-start gap-6 md:gap-8">
+                <div
+                  className="text-gray-500 group-hover:text-brand-accent transition-colors duration-500 mt-2 shrink-0 [&>svg]:w-8 [&>svg]:h-8"
+                  dangerouslySetInnerHTML={{ __html: servico.icone }}
+                />
+                <div className="flex flex-col">
+                  <p className="text-gray-400 font-light text-lg md:text-xl leading-relaxed">
+                    <strong className="text-gray-200 font-normal">{resumopart1}</strong> {resumopart2}
+                  </p>
+                  <div className="mt-6 md:mt-8 opacity-0 group-hover:opacity-100 translate-y-4 group-hover:translate-y-0 transition-all duration-500 h-0 group-hover:h-auto overflow-hidden">
+                    <ModalServ servico={servico} onClose={() => {}} />
+                  </div>
+                </div>
               </div>
             </motion.div>
           );

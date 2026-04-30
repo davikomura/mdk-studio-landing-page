@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { createPortal } from "react-dom";
 import { IoCloseCircle } from "react-icons/io5";
 import { useTranslation } from "react-i18next";
 
@@ -20,36 +21,41 @@ const ModalServ = ({ servico, onClose }) => {
     return (
         <>
             <button
-                className="mt-1 flex items-center gap-1 text-sm text-blue-500 underline underline-offset-4 hover:text-blue-300 hover:scale-105 transition-all duration-200"
+                className="group flex items-center gap-2 text-sm md:text-base font-semibold text-gray-400 hover:text-brand-accent transition-all duration-300 uppercase tracking-widest mt-2"
                 onClick={() => setShowModal(true)}
             >
                 {t("services.readMore")}
-                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" className="rotate-180 stroke-blue-400">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" className="stroke-current group-hover:translate-x-2 transition-transform duration-300">
                     <path
                         strokeLinejoin="round"
                         strokeLinecap="round"
                         strokeWidth="1.5"
-                        d="M11 6L5 12M5 12L11 18M5 12H19"
+                        d="M5 12h14M12 5l7 7-7 7"
                     ></path>
                 </svg>
             </button>
 
-            {showModal && (
-                <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 backdrop-blur-sm transition-opacity duration-300">
-                    <div className="bg-gradient-to-b from-gray-900 to-black rounded-2xl shadow-2xl p-6 md:p-8 w-11/12 max-w-md border border-indigo-600 animate-fade-in">
-                        <div className="flex justify-between items-center mb-4">
-                            <h3 className="text-white text-2xl md:text-3xl font-bold">
+            {showModal && createPortal(
+                <div className="fixed inset-0 z-[100] flex items-center justify-center bg-black/60 backdrop-blur-md transition-opacity duration-500 px-4">
+                    <div className="glass-effect rounded-2xl p-8 md:p-12 w-full max-w-2xl border border-white/10 shadow-[0_0_50px_rgba(16,185,129,0.1)] animate-fade-in relative overflow-hidden">
+                        {/* Decorative glow */}
+                        <div className="absolute top-0 right-0 w-64 h-64 bg-brand-accent/10 rounded-full blur-[80px] -translate-y-1/2 translate-x-1/2 pointer-events-none" />
+                        
+                        <div className="flex justify-between items-start mb-8 relative z-10">
+                            <h3 className="text-white text-3xl md:text-5xl font-display font-medium pr-8">
                                 {tipo}
                             </h3>
-                            <button onClick={handleModalClose} className="text-indigo-400 hover:text-red-500 transition-colors duration-200">
+                            <button onClick={handleModalClose} className="text-gray-500 hover:text-white transition-colors duration-300 absolute right-0 top-0">
                                 <IoCloseCircle size={32} />
                             </button>
                         </div>
-                        <div className="text-white text-sm md:text-base leading-relaxed">
-                            <p>{descricao}</p>
-                        </div>
+                        <div 
+                            className="text-gray-300 text-xl md:text-2xl font-light leading-relaxed relative z-10"
+                            dangerouslySetInnerHTML={{ __html: descricao }}
+                        />
                     </div>
-                </div>
+                </div>,
+                document.body
             )}
         </>
     );

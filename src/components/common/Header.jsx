@@ -13,8 +13,8 @@ const Header = () => {
     };
 
     return (
-        <header className="fixed top-0 left-0 right-0 flex font-sans min-h-[70px] tracking-wide z-50">
-            <nav className="bg-gray-800 fixed top-0 left-0 right-0 shadow-md py-4 px-4 sm:px-10 bg-transparent backdrop-blur-sm bg-black/10">
+        <header className="fixed top-0 left-0 right-0 flex min-h-[70px] z-50">
+            <nav className="fixed top-0 left-0 right-0 py-4 px-4 sm:px-10 glass-effect transition-all duration-300">
                 <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
                     <div className="relative flex h-16 items-center justify-between">
                         <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -43,10 +43,10 @@ const Header = () => {
                             </div>
                             <div className="hidden sm:ml-6 sm:block">
                                 <div className="flex space-x-4">
-                                    <a href="#servicos" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar" aria-current="page">{t('header.services')}</a>
-                                    <a href="#projects" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar">{t('header.gallery')}</a>
-                                    <a href="#about" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar">{t('header.about')}</a>
-                                    <a href="#FAQ" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white li-bar">{t('header.faq')}</a>
+                                    <a href="#servicos" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:text-brand-accent transition-colors" aria-current="page">{t('header.services')}</a>
+                                    <a href="#projects" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:text-brand-accent transition-colors">{t('header.gallery')}</a>
+                                    <a href="#about" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:text-brand-accent transition-colors">{t('header.about')}</a>
+                                    <a href="#FAQ" className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:text-brand-accent transition-colors">{t('header.faq')}</a>
                                 </div>
                             </div>
                             <div className="absolute right-0">
@@ -64,26 +64,26 @@ const Header = () => {
                     <div className="space-y-1 px-2 pb-3 pt-2">
                         <a
                         href="#servicos"
-                        className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                        className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/10 hover:text-brand-accent transition-colors"
                         aria-current="page"
                         >
                         {t('header.services')}
                         </a>
                         <a
                         href="#projects"
-                        className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                        className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/10 hover:text-brand-accent transition-colors"
                         >
                         {t('header.gallery')}
                         </a>
                         <a
                         href="#about"
-                        className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                        className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/10 hover:text-brand-accent transition-colors"
                         >
                         {t('header.about')}
                         </a>
                         <a
                         href="#FAQ"
-                        className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-gray-700 hover:text-white"
+                        className="block rounded-md px-3 py-2 text-base font-medium text-gray-300 hover:bg-white/10 hover:text-brand-accent transition-colors"
                         >
                         {t('header.faq')}
                         </a>

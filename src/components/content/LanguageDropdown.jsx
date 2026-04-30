@@ -1,70 +1,39 @@
-import { useState, useRef, useEffect } from "react";
 import { useTranslation } from "react-i18next";
 
 const languages = [
-  { code: "en", flagSrc: "/flags/us.png" },
   { code: "pt", flagSrc: "/flags/br.png" },
+  { code: "en", flagSrc: "/flags/us.png" },
   { code: "es", flagSrc: "/flags/es.png" },
 ];
 
 export const LanguageDropdown = () => {
   const { i18n } = useTranslation();
-  const [isOpen, setIsOpen] = useState(false);
-  const dropdownRef = useRef(null);
-
-  const handleLanguageChange = (lang) => {
-    i18n.changeLanguage(lang.code);
-    setIsOpen(false);
-  };
-
-  useEffect(() => {
-    const handleClickOutside = (event) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(event.target)) {
-        setIsOpen(false);
-      }
-    };
-    document.addEventListener("mousedown", handleClickOutside);
-    return () => {
-      document.removeEventListener("mousedown", handleClickOutside);
-    };
-  }, []);
-
-  const currentLang =
-    languages.find((lang) => lang.code === i18n.language) || languages[0];
 
   return (
-    <div className="relative ml-4" ref={dropdownRef}>
-      <button
-        onClick={() => setIsOpen(!isOpen)}
-        className="flex items-center rounded-md p-2 hover:bg-gray-700 transition"
-        aria-label="Select language"
-      >
-        <img
-          src={currentLang.flagSrc}
-          alt={currentLang.code}
-          className="w-5 h-5 rounded-sm"
-        />
-      </button>
-
-      {isOpen && (
-        <ul className="absolute right-0 mt-2 w-14 bg-black border border-gray-700 shadow-xl rounded-md overflow-hidden z-50">
-          {languages.map((lang) => (
-            <li key={lang.code}>
-              <button
-                onClick={() => handleLanguageChange(lang)}
-                className="w-full flex items-center justify-center px-2 py-2 hover:bg-gray-700 transition"
-                aria-label={`Change language to ${lang.code}`}
-              >
-                <img
-                  src={lang.flagSrc}
-                  alt={lang.code}
-                  className="w-5 h-5 rounded-sm"
-                />
-              </button>
-            </li>
-          ))}
-        </ul>
-      )}
+    <div className="flex items-center space-x-3 ml-4">
+      {languages.map((lang) => {
+        const currentLang = i18n.language || "pt";
+        const isActive = currentLang.toLowerCase().startsWith(lang.code);
+        
+        return (
+          <button
+            key={lang.code}
+            onClick={() => i18n.changeLanguage(lang.code)}
+            className={`transition-all duration-300 rounded-sm overflow-hidden flex items-center justify-center ${
+              isActive 
+                ? "ring-2 ring-offset-2 ring-offset-black ring-brand-accent scale-110 drop-shadow-[0_0_8px_rgba(16,185,129,0.8)]" 
+                : "opacity-40 hover:opacity-80 grayscale hover:grayscale-0"
+            }`}
+            aria-label={`Mudar idioma para ${lang.code}`}
+          >
+            <img 
+              src={lang.flagSrc} 
+              alt={lang.code} 
+              className="w-6 h-4 md:w-7 md:h-5 object-cover" 
+            />
+          </button>
+        );
+      })}
     </div>
   );
 };

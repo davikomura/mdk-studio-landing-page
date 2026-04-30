@@ -9,9 +9,18 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        sans: ['Inter', 'sans-serif'],
+        display: ['Outfit', 'sans-serif'],
+      },
       colors: {
         'custom-color': '#202626',
         'color-plan': '#2E403C',
+        brand: {
+          dark: '#050505',
+          accent: '#10b981',
+          secondary: '#8b5cf6',
+        }
       },
       textShadow: {
         sm: '0 1px 2px var(--tw-shadow-color)',
