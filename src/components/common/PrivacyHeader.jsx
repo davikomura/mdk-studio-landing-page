@@ -1,25 +1,32 @@
 import logo from '../../assets/image.png';
 import { FiArrowLeft } from 'react-icons/fi';
+import { useTranslation } from 'react-i18next';
+import { LanguageDropdown } from '../content/LanguageDropdown';
 
 const PrivacyHeader = () => {
+  const { t } = useTranslation();
+
   return (
     <header className="fixed top-0 left-0 right-0 z-50">
       <nav className="py-4 px-4 sm:px-10 glass-effect transition-all duration-300">
         <div className="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
           <div className="flex h-16 items-center justify-between">
             {/* Logo */}
-            <a href="/" aria-label="Voltar para a home">
+            <a href="/" aria-label={t('privacy.backToSite')}>
               <img className="h-12 w-auto" src={logo} alt="Logo MDK Studio" />
             </a>
 
-            {/* Back link */}
-            <a
-              href="/"
-              className="flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors duration-200"
-            >
-              <FiArrowLeft className="w-4 h-4" />
-              Voltar ao site
-            </a>
+            {/* Right side */}
+            <div className="flex items-center gap-6">
+              <LanguageDropdown />
+              <a
+                href="/"
+                className="hidden sm:flex items-center gap-2 text-sm text-gray-400 hover:text-white transition-colors duration-200"
+              >
+                <FiArrowLeft className="w-4 h-4" />
+                {t('privacy.backToSite')}
+              </a>
+            </div>
           </div>
         </div>
       </nav>
@@ -28,3 +35,4 @@ const PrivacyHeader = () => {
 };
 
 export default PrivacyHeader;
+
