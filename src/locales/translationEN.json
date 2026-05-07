@@ -122,5 +122,119 @@
       "number": "+55 (98) 98160-0041"
     },
     "followUs": "Follow us"
+  },
+  "privacy": {
+    "pageTitle": "Privacy Policy — Enigma Case | MDK Studio",
+    "metaDescription": "Read the privacy policy for Enigma Case, developed by MDK Studio. Understand how your data is handled in the app available on the Google Play Store.",
+    "heroTitle1": "Privacy",
+    "heroTitle2": "Policy",
+    "heroSubtitle": "App <b>Enigma Case</b>, developed by <b>MDK Studio</b>",
+    "lastUpdated": "Last updated:",
+    "lastUpdatedDate": "May 7, 2025",
+    "quickSummaryLabel": "Quick summary:",
+    "quickSummaryText": "Enigma Case is an offline game that <b>does not collect personal data</b>. All progress is saved locally on your device. No account, no server, no tracking.",
+    "footerRights": "All rights reserved.",
+    "backToSite": "Back to website",
+    "sections": [
+      {
+        "id": "collection",
+        "title": "Information We Collect",
+        "items": [
+          {
+            "subtitle": "Data we do NOT collect",
+            "text": "Enigma Case is an offline game. We do not collect names, emails, phone numbers, location, or any personally identifiable information."
+          },
+          {
+            "subtitle": "Game progress (local storage)",
+            "text": "Progress data, such as unlocked cases, achievements, and settings, is saved exclusively in your device's local storage using AsyncStorage/MMKV. This data never leaves your device."
+          }
+        ]
+      },
+      {
+        "id": "usage",
+        "title": "How We Use Information",
+        "items": [
+          {
+            "subtitle": "Game functionality",
+            "text": "Locally saved data is used solely to maintain your progress between sessions, exactly as you would expect from any game."
+          },
+          {
+            "subtitle": "Quality improvements",
+            "text": "Anonymous crash reports help us identify and fix bugs, ensuring a better experience for all players."
+          }
+        ]
+      },
+      {
+        "id": "sharing",
+        "title": "Data Sharing",
+        "items": [
+          {
+            "subtitle": "We do not sell your data",
+            "text": "We never sell, rent, or commercialize user information with third parties for advertising or any other purpose."
+          },
+          {
+            "subtitle": "Infrastructure third parties",
+            "text": "We may use services such as Expo Application Services (EAS) for distribution and technical analysis. These services follow their own privacy policies and only handle aggregated technical data."
+          }
+        ]
+      },
+      {
+        "id": "security",
+        "title": "Security",
+        "items": [
+          {
+            "subtitle": "Local data protected by the OS",
+            "text": "Since all data stays on your device, it is protected by Android's native safeguards (app sandbox, disk encryption when enabled by the device)."
+          },
+          {
+            "subtitle": "No personal data transmission",
+            "text": "Because we do not transmit personal data to external servers, the risk of a personal data breach is inherently minimal."
+          }
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "Your Rights and Control",
+        "items": [
+          {
+            "subtitle": "Data deletion",
+            "text": "To delete all game data, simply uninstall the app from your device. All local data will be automatically removed by the operating system."
+          },
+          {
+            "subtitle": "No account required",
+            "text": "Enigma Case does not require account creation. You can play completely anonymously."
+          },
+          {
+            "subtitle": "Children",
+            "text": "The app is rated for ages 10 and up, as indicated on the Google Play Store. We do not intentionally collect data from children."
+          }
+        ]
+      },
+      {
+        "id": "updates",
+        "title": "Policy Updates",
+        "items": [
+          {
+            "subtitle": "Change notifications",
+            "text": "If this policy is materially updated, we will publish the new version on this page with an updated effective date. We recommend reviewing it periodically."
+          },
+          {
+            "subtitle": "Continued use",
+            "text": "Continued use of the app after changes are published constitutes acceptance of those changes."
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "title": "Contact",
+        "items": [
+          {
+            "subtitle": "Questions or requests",
+            "text": "If you have questions about this Privacy Policy or wish to exercise any rights related to personal data, please contact us at:",
+            "email": "contato@mdkstudio.com.br"
+          }
+        ]
+      }
+    ]
   }
 }

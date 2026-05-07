@@ -122,5 +122,119 @@
       "number": "+55 (98) 98160-0041"
     },
     "followUs": "Síguenos"
+  },
+  "privacy": {
+    "pageTitle": "Política de Privacidad — Enigma Case | MDK Studio",
+    "metaDescription": "Lee la política de privacidad de Enigma Case, desarrollado por MDK Studio. Conoce cómo se tratan tus datos en la aplicación disponible en Google Play Store.",
+    "heroTitle1": "Política de",
+    "heroTitle2": "Privacidad",
+    "heroSubtitle": "Aplicación <b>Enigma Case</b>, desarrollada por <b>MDK Studio</b>",
+    "lastUpdated": "Última actualización:",
+    "lastUpdatedDate": "7 de mayo de 2025",
+    "quickSummaryLabel": "Resumen rápido:",
+    "quickSummaryText": "Enigma Case es un juego sin conexión que <b>no recopila datos personales</b>. Todo el progreso se guarda localmente en tu dispositivo. Sin cuenta, sin servidor, sin rastreo.",
+    "footerRights": "Todos los derechos reservados.",
+    "backToSite": "Volver al sitio",
+    "sections": [
+      {
+        "id": "recopilacion",
+        "title": "Información que Recopilamos",
+        "items": [
+          {
+            "subtitle": "Datos que NO recopilamos",
+            "text": "Enigma Case es un juego sin conexión. No recopilamos nombres, correos electrónicos, números de teléfono, ubicación ni ninguna información de identificación personal."
+          },
+          {
+            "subtitle": "Progreso del juego (almacenamiento local)",
+            "text": "Los datos de progreso, como casos desbloqueados, logros y configuraciones, se guardan exclusivamente en el almacenamiento local de tu dispositivo mediante AsyncStorage/MMKV. Estos datos nunca salen de tu dispositivo."
+          }
+        ]
+      },
+      {
+        "id": "uso",
+        "title": "Cómo Usamos la Información",
+        "items": [
+          {
+            "subtitle": "Funcionamiento del juego",
+            "text": "Los datos guardados localmente se utilizan exclusivamente para mantener tu progreso entre sesiones, exactamente como esperarías de cualquier juego."
+          },
+          {
+            "subtitle": "Mejoras de calidad",
+            "text": "Los informes de fallos anónimos nos ayudan a identificar y corregir errores, garantizando una mejor experiencia para todos los jugadores."
+          }
+        ]
+      },
+      {
+        "id": "compartir",
+        "title": "Compartición de Datos",
+        "items": [
+          {
+            "subtitle": "No vendemos tus datos",
+            "text": "Nunca vendemos, alquilamos ni comercializamos información de los usuarios con terceros con fines publicitarios ni de ninguna otra índole."
+          },
+          {
+            "subtitle": "Terceros de infraestructura",
+            "text": "Podemos utilizar servicios como Expo Application Services (EAS) para distribución y análisis técnico. Estos servicios tienen sus propias políticas de privacidad y solo manejan datos técnicos agregados."
+          }
+        ]
+      },
+      {
+        "id": "seguridad",
+        "title": "Seguridad",
+        "items": [
+          {
+            "subtitle": "Datos locales protegidos por el sistema operativo",
+            "text": "Como todos los datos permanecen en tu dispositivo, están protegidos por las salvaguardas nativas de Android (sandbox de aplicación, cifrado de disco cuando está habilitado por el dispositivo)."
+          },
+          {
+            "subtitle": "Sin transmisión de datos personales",
+            "text": "Al no transmitir datos personales a servidores externos, el riesgo de una violación de datos personales es inherentemente mínimo."
+          }
+        ]
+      },
+      {
+        "id": "derechos",
+        "title": "Tus Derechos y Control",
+        "items": [
+          {
+            "subtitle": "Eliminación de datos",
+            "text": "Para eliminar todos los datos del juego, simplemente desinstala la aplicación de tu dispositivo. El sistema operativo eliminará automáticamente todos los datos locales."
+          },
+          {
+            "subtitle": "Sin necesidad de cuenta",
+            "text": "Enigma Case no requiere la creación de una cuenta. Puedes jugar de forma completamente anónima."
+          },
+          {
+            "subtitle": "Niños",
+            "text": "La aplicación está clasificada para mayores de 10 años, según se indica en Google Play Store. No recopilamos datos de menores de forma intencionada."
+          }
+        ]
+      },
+      {
+        "id": "actualizaciones",
+        "title": "Actualizaciones de esta Política",
+        "items": [
+          {
+            "subtitle": "Notificaciones de cambio",
+            "text": "Si esta política se actualiza de forma sustancial, publicaremos la nueva versión en esta página con la fecha de vigencia actualizada. Recomendamos revisarla periódicamente."
+          },
+          {
+            "subtitle": "Uso continuado",
+            "text": "El uso continuado de la aplicación tras la publicación de cambios implica la aceptación de los mismos."
+          }
+        ]
+      },
+      {
+        "id": "contacto",
+        "title": "Contacto",
+        "items": [
+          {
+            "subtitle": "Dudas o solicitudes",
+            "text": "Si tienes preguntas sobre esta Política de Privacidad o deseas ejercer algún derecho relacionado con datos personales, contáctanos en:",
+            "email": "contato@mdkstudio.com.br"
+          }
+        ]
+      }
+    ]
   }
 }
