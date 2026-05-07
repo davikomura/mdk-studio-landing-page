@@ -16,7 +16,6 @@
       "link": "https://dkcycleshop.vercel.app/"
     }
   ],
-
   "dadosTime": [
     {
       "key": "daviFunction",
@@ -41,7 +40,7 @@
     {
       "key": "felipeFunction",
       "nome": "Felipe Macedo",
-      "foto": "/img/Time/felipe.jpg",
+      "foto": "/img/Time/felipe.png",
       "tamImg": 500,
       "redes_sociais": [
         {
@@ -79,7 +78,6 @@
       ]
     }
   ],
-
   "Servicos": [
     {
       "key": "websiteDevelopment",
