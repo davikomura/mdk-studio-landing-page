@@ -3,6 +3,7 @@ import { useParams } from 'react-router-dom';
 import PrivacyHeader from './components/common/PrivacyHeader';
 import PrivacyPolicy from './components/sessions/PrivacyPolicy';
 import Footer from './components/common/Footer';
+import WhatsAppButton from './components/common/WhatsAppButton';
 import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
 
@@ -45,6 +46,7 @@ const PrivacyApp = () => {
       <PrivacyHeader />
       <PrivacyPolicy />
       <Footer />
+      <WhatsAppButton />
     </>
   );
 };

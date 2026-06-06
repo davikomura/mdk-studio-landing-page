@@ -237,5 +237,12 @@
         ]
       }
     ]
+  },
+  "footer": {
+    "description": "Mobile app development, high-converting websites, and custom web systems with total focus on conversion and premium UX/UI Design.",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "rights": "All rights reserved."
   }
 }

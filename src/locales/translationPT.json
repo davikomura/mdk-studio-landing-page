@@ -237,5 +237,12 @@
         ]
       }
     ]
+  },
+  "footer": {
+    "description": "Desenvolvimento de aplicativos móveis, sites de alta conversão e sistemas web sob medida com foco total em conversão e UX/UI Design premium.",
+    "quickLinks": "Links Rápidos",
+    "legal": "Legal",
+    "privacyPolicy": "Política de Privacidade",
+    "rights": "Todos os direitos reservados."
   }
 }

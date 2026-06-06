@@ -46,10 +46,6 @@ const Faq = () => {
           ))}
         </div>
       </div>
-
-      <div className="mt-16">
-        <hr className="h-px bg-gray-700 border-0" />
-      </div>
     </div>
   );
 };

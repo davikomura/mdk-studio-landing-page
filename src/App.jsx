@@ -2,10 +2,10 @@ import React, { useEffect } from 'react';
 import { useParams } from 'react-router-dom';
 import Header from './components/common/Header';
 import Footer from './components/common/Footer';
+import WhatsAppButton from './components/common/WhatsAppButton';
 import Home from './components/sessions/Home';
 import About from './components/sessions/About';
 import Faq from './components/sessions/Faq';
-import Formulario from './components/sessions/Formulario';
 import { Servicos } from './components/sessions/Servicos';
 import ProjetosSection from './components/sessions/ProjetosSection';
 import { Helmet } from 'react-helmet-async';
@@ -116,8 +116,8 @@ function App() {
       <ProjetosSection />
       <About/>
       <Faq/>
-      <Formulario/>
       <Footer/>
+      <WhatsAppButton />
     </>
   );
 }

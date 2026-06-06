@@ -1,7 +1,8 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, lazy, Suspense } from 'react';
 import { createBrowserRouter, useNavigate, useParams, Navigate, Outlet } from 'react-router-dom';
 import App from './App.jsx';
-import PrivacyApp from './PrivacyApp.jsx';
+
+const PrivacyApp = lazy(() => import('./PrivacyApp.jsx'));
 
 // Component to handle auto-detection and redirecting the root "/" to "/:lang"
 const RootRedirect = () => {
@@ -60,7 +61,11 @@ const routes = [
       },
       {
         path: "privacy-policy",
-        element: <PrivacyApp />,
+        element: (
+          <Suspense fallback={<div className="bg-black min-h-screen" />}>
+            <PrivacyApp />
+          </Suspense>
+        ),
       },
     ]
   },
