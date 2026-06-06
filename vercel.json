@@ -1,4 +1,8 @@
 {
+  "redirects": [
+    { "source": "/", "destination": "/pt", "permanent": false },
+    { "source": "/privacy-policy", "destination": "/pt/privacy-policy", "permanent": false }
+  ],
   "rewrites": [
     { "source": "/(.*)", "destination": "/index.html" }
   ]

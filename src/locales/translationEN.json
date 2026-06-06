@@ -69,7 +69,7 @@
     "title": "Meet our team",
     "description": "At MDK Studio, our team of developers is at the heart of what we do. We are dedicated and passionate about creating innovative solutions that turn ideas into reality.",
     "functionTeam": {
-      "daviFunction": "Co-founder & Frontend Dev",
+      "daviFunction": "Co-founder & Fullstack Dev",
       "felipeFunction": "Co-founder & Fullstack Dev",
       "danielFunction": "Co-founder & Backend Dev"
     }
@@ -126,6 +126,7 @@
   "privacy": {
     "pageTitle": "Privacy Policy — Enigma Case | MDK Studio",
     "metaDescription": "Read the privacy policy for Enigma Case, developed by MDK Studio. Understand how your data is handled in the app available on the Google Play Store.",
+    "keywords": "privacy policy, enigma case, privacy, mdk studio, personal data",
     "heroTitle1": "Privacy",
     "heroTitle2": "Policy",
     "heroSubtitle": "App <b>Enigma Case</b>, developed by <b>MDK Studio</b>",
@@ -236,5 +237,12 @@
         ]
       }
     ]
+  },
+  "footer": {
+    "description": "Mobile app development, high-converting websites, and custom web systems with total focus on conversion and premium UX/UI Design.",
+    "quickLinks": "Quick Links",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "rights": "All rights reserved."
   }
 }

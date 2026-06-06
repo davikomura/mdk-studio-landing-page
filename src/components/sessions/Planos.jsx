@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 // import fundo from '../../assets/fundo.png'
-import marmore from '../../assets/marmore.png';
+import marmore from '../../assets/marmore.webp';
 import check from '../../assets/check.svg';
 
 export const Planos = () => {
