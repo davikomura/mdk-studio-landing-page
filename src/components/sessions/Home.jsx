@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import homeImg from "../../assets/img1.jpg";
+import homeImg from "../../assets/img1.webp";
 import { useTranslation } from "react-i18next";
 import ModalForm from "../content/ModalForm";
 

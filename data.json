@@ -2,17 +2,17 @@
   "Projetos": [
     {
       "empresa": "UpaonBike",
-      "imagem": "/img/Projetos/UpaonBikeSemFundo.png",
+      "imagem": "/img/Projetos/UpaonBikeSemFundo.webp",
       "link": "https://www.upaonbike.com.br/"
     },
     {
       "empresa": "CoreSys App",
-      "imagem": "/img/Projetos/coresys.png",
+      "imagem": "/img/Projetos/coresys.webp",
       "link": "https://core-dashboard-ten.vercel.app/"
     },
     {
       "empresa": "DK Cycle Shop",
-      "imagem": "/img/Projetos/site1.png",
+      "imagem": "/img/Projetos/site1.webp",
       "link": "https://dkcycleshop.vercel.app/"
     }
   ],
@@ -20,7 +20,7 @@
     {
       "key": "daviFunction",
       "nome": "Davi Komura",
-      "foto": "/img/Time/davi.jpg",
+      "foto": "/img/Time/davi.webp",
       "tamImg": 500,
       "redes_sociais": [
         {
@@ -40,7 +40,7 @@
     {
       "key": "felipeFunction",
       "nome": "Felipe Macedo",
-      "foto": "/img/Time/felipe.png",
+      "foto": "/img/Time/felipe.webp",
       "tamImg": 500,
       "redes_sociais": [
         {
@@ -60,7 +60,7 @@
     {
       "key": "danielFunction",
       "nome": "Daniel Korban",
-      "foto": "/img/Time/daniel.jpg",
+      "foto": "/img/Time/daniel.webp",
       "tamImg": 500,
       "redes_sociais": [
         {
