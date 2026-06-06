@@ -3,9 +3,9 @@ import { useTranslation } from "react-i18next";
 import { useNavigate, useLocation, useParams } from "react-router-dom";
 
 const languages = [
-  { code: "pt", flagSrc: "/flags/br.webp" },
-  { code: "en", flagSrc: "/flags/us.webp" },
-  { code: "es", flagSrc: "/flags/es.webp" },
+  { code: "pt", flagSrc: "/flags/br.webp", alt: "Bandeira do Brasil" },
+  { code: "en", flagSrc: "/flags/us.webp", alt: "Flag of the United States" },
+  { code: "es", flagSrc: "/flags/es.webp", alt: "Bandera de España" },
 ];
 
 export const LanguageDropdown = () => {
@@ -47,7 +47,7 @@ export const LanguageDropdown = () => {
           >
             <img 
               src={lang.flagSrc} 
-              alt={lang.code} 
+              alt={lang.alt} 
               className="w-6 h-4 md:w-7 md:h-5 object-cover" 
             />
           </button>

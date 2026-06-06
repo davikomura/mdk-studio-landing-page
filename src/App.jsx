@@ -111,11 +111,13 @@ function App() {
         </script>
       </Helmet>
       <Header/>
-      <Home/>
-      <Servicos/>
-      <ProjetosSection />
-      <About/>
-      <Faq/>
+      <main>
+        <Home/>
+        <Servicos/>
+        <ProjetosSection />
+        <About/>
+        <Faq/>
+      </main>
       <Footer/>
       <WhatsAppButton />
     </>

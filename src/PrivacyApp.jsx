@@ -44,7 +44,9 @@ const PrivacyApp = () => {
         <link rel="alternate" hreflang="x-default" href="https://mdkstudio.com.br/pt/privacy-policy" />
       </Helmet>
       <PrivacyHeader />
-      <PrivacyPolicy />
+      <main>
+        <PrivacyPolicy />
+      </main>
       <Footer />
       <WhatsAppButton />
     </>
