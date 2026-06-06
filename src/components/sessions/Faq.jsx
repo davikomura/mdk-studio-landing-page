@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { FiChevronDown, FiChevronUp } from 'react-icons/fi';
+import { motion, AnimatePresence } from 'framer-motion';
+import { FiPlus, FiMinus } from 'react-icons/fi';
 
 const Faq = () => {
   const { t } = useTranslation();
@@ -13,40 +14,66 @@ const Faq = () => {
   const questions = t('faqs.questions', { returnObjects: true });
 
   return (
-    <div id="FAQ" className="bg-black text-white py-20 px-6">
-      <div className="max-w-5xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-bold text-center mb-12">
+    <section id="FAQ" className="bg-black text-white py-24 px-6 sm:px-12">
+      <div className="max-w-4xl mx-auto">
+        <motion.h2
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+          viewport={{ once: true }}
+          className="text-4xl sm:text-5xl lg:text-6xl font-display font-bold text-center mb-16 tracking-tight"
+        >
           {t('faqs.title')}
-        </h2>
+        </motion.h2>
 
-        <div className="space-y-6">
-          {questions.map((faq, index) => (
-            <div
-              key={index}
-              className="bg-gray-900 rounded-xl shadow-md overflow-hidden transition hover:shadow-blue-500/20"
-            >
-              <button
-                onClick={() => handleClick(index)}
-                className="w-full flex justify-between items-center p-6 text-left focus:outline-none"
+        <div className="border-t border-white/10">
+          {questions.map((faq, index) => {
+            const isOpen = openIndex === index;
+            return (
+              <div
+                key={index}
+                className="border-b border-white/10 transition-colors duration-300 hover:bg-white/[0.01]"
               >
-                <span className="text-lg font-medium">{faq.question}</span>
-                {openIndex === index ? (
-                  <FiChevronUp className="w-5 h-5 text-blue-400" />
-                ) : (
-                  <FiChevronDown className="w-5 h-5 text-gray-400" />
-                )}
-              </button>
+                <button
+                  onClick={() => handleClick(index)}
+                  className="w-full flex justify-between items-center py-8 text-left focus:outline-none group"
+                  aria-expanded={isOpen}
+                >
+                  <span className="text-xl sm:text-2xl font-light tracking-tight group-hover:text-brand-accent transition-colors duration-300 pr-6">
+                    {faq.question}
+                  </span>
+                  <div className="flex-shrink-0 flex items-center justify-center w-8 h-8 rounded-full border border-white/10 group-hover:border-brand-accent group-hover:bg-brand-accent/10 transition-all duration-300 text-gray-400 group-hover:text-brand-accent">
+                    <motion.div
+                      animate={{ rotate: isOpen ? 180 : 0 }}
+                      transition={{ duration: 0.3 }}
+                      className="flex items-center justify-center"
+                    >
+                      {isOpen ? <FiMinus className="w-4 h-4" /> : <FiPlus className="w-4 h-4" />}
+                    </motion.div>
+                  </div>
+                </button>
 
-              {openIndex === index && (
-                <div className="px-6 pb-6 text-gray-300 transition-all duration-300">
-                  <p>{faq.answer}</p>
-                </div>
-              )}
-            </div>
-          ))}
+                <AnimatePresence initial={false}>
+                  {isOpen && (
+                    <motion.div
+                      initial={{ height: 0, opacity: 0 }}
+                      animate={{ height: 'auto', opacity: 1 }}
+                      exit={{ height: 0, opacity: 0 }}
+                      transition={{ duration: 0.3, ease: 'easeInOut' }}
+                      className="overflow-hidden"
+                    >
+                      <div className="pb-8 text-gray-400 font-light text-base sm:text-lg leading-relaxed max-w-3xl">
+                        <p>{faq.answer}</p>
+                      </div>
+                    </motion.div>
+                  )}
+                </AnimatePresence>
+              </div>
+            );
+          })}
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
