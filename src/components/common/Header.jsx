@@ -1,5 +1,5 @@
 import { useState } from "react";
-import logo from "../../assets/image.png";
+import logo from "../../assets/image.webp";
 import { LanguageDropdown } from "../content/LanguageDropdown";
 import { useTranslation } from 'react-i18next';
 

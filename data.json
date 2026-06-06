@@ -1,8 +1,13 @@
 {
   "Projetos": [
     {
+      "empresa": "Enigma Case",
+      "imagem": "/img/Projetos/enigmacase.webp",
+      "link": "https://play.google.com/store/apps/details?id=com.enigmacase"
+    },
+    {
       "empresa": "UpaonBike",
-      "imagem": "/img/Projetos/UpaonBikeSemFundo.webp",
+      "imagem": "/img/Projetos/new-upaonbike1.webp",
       "link": "https://www.upaonbike.com.br/"
     },
     {

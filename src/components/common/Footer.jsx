@@ -1,4 +1,4 @@
-import zapzap from '../../assets/wpp.png';
+import zapzap from '../../assets/wpp.webp';
 
 const Footer = () => {
   return (

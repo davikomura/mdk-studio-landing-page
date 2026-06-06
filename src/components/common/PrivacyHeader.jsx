@@ -1,4 +1,4 @@
-import logo from '../../assets/image.png';
+import logo from '../../assets/image.webp';
 import { FiArrowLeft } from 'react-icons/fi';
 import { useTranslation } from 'react-i18next';
 import { LanguageDropdown } from '../content/LanguageDropdown';

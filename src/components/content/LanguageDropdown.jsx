@@ -1,10 +1,11 @@
+// src/components/content/LanguageDropdown.jsx
 import { useTranslation } from "react-i18next";
 import { useNavigate, useLocation, useParams } from "react-router-dom";
 
 const languages = [
-  { code: "pt", flagSrc: "/flags/br.png" },
-  { code: "en", flagSrc: "/flags/us.png" },
-  { code: "es", flagSrc: "/flags/es.png" },
+  { code: "pt", flagSrc: "/flags/br.webp" },
+  { code: "en", flagSrc: "/flags/us.webp" },
+  { code: "es", flagSrc: "/flags/es.webp" },
 ];
 
 export const LanguageDropdown = () => {
