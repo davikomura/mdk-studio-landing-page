@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Rota Principal PT -->
+  <url>
+    <loc>https://mdkstudio.com.br/pt</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mdkstudio.com.br/pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mdkstudio.com.br/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://mdkstudio.com.br/es" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mdkstudio.com.br/pt" />
+  </url>
+  
+  <!-- Rota Principal EN -->
+  <url>
+    <loc>https://mdkstudio.com.br/en</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mdkstudio.com.br/pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mdkstudio.com.br/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://mdkstudio.com.br/es" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mdkstudio.com.br/pt" />
+  </url>
+
+  <!-- Rota Principal ES -->
+  <url>
+    <loc>https://mdkstudio.com.br/es</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mdkstudio.com.br/pt" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mdkstudio.com.br/en" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://mdkstudio.com.br/es" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mdkstudio.com.br/pt" />
+  </url>
+
+  <!-- Rota Política de Privacidade PT -->
+  <url>
+    <loc>https://mdkstudio.com.br/pt/privacy-policy</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mdkstudio.com.br/pt/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mdkstudio.com.br/en/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://mdkstudio.com.br/es/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mdkstudio.com.br/pt/privacy-policy" />
+  </url>
+
+  <!-- Rota Política de Privacidade EN -->
+  <url>
+    <loc>https://mdkstudio.com.br/en/privacy-policy</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mdkstudio.com.br/pt/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mdkstudio.com.br/en/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://mdkstudio.com.br/es/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mdkstudio.com.br/pt/privacy-policy" />
+  </url>
+
+  <!-- Rota Política de Privacidade ES -->
+  <url>
+    <loc>https://mdkstudio.com.br/es/privacy-policy</loc>
+    <lastmod>2026-06-06</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="pt" href="https://mdkstudio.com.br/pt/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://mdkstudio.com.br/en/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://mdkstudio.com.br/es/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://mdkstudio.com.br/pt/privacy-policy" />
+  </url>
+</urlset>

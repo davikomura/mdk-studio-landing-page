@@ -16,7 +16,8 @@ const fadeUp = {
 const sectionIcons = [FiDatabase, FiEye, FiShield, FiLock, FiTrash2, FiRefreshCw, FiMail];
 
 const PrivacyPolicy = () => {
-  const { t } = useTranslation();
+  const { t, i18n } = useTranslation();
+  const currentLang = i18n.language ? i18n.language.substring(0, 2).toLowerCase() : 'pt';
 
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -139,7 +140,7 @@ const PrivacyPolicy = () => {
         <p className="text-gray-600 text-sm">
           © {new Date().getFullYear()} MDK Studio. {t('privacy.footerRights')} &nbsp;|&nbsp;{' '}
           <a
-            href="/"
+            href={`/${currentLang}`}
             className="text-gray-500 hover:text-emerald-400 transition-colors duration-200"
           >
             mdkstudio.com.br

@@ -16,7 +16,7 @@ const About = () => {
   return (
     <section id="about" className="bg-black text-white pt-24 pb-16">
       <div className="container mx-auto px-6 text-center">
-        <h1 className="text-4xl sm:text-5xl font-bold">{t('aboutUs.title')}</h1>
+        <h2 className="text-4xl sm:text-5xl font-bold">{t('aboutUs.title')}</h2>
         <div className="flex justify-center mt-4 mb-6">
           <span className="w-40 h-1 bg-blue-500 rounded-full"></span>
           <span className="w-3 h-1 mx-1 bg-blue-500 rounded-full"></span>
