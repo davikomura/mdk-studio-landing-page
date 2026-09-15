@@ -238,6 +238,153 @@
       }
     ]
   },
+  "mathtrailPrivacy": {
+    "pageTitle": "Privacy Policy — MathTrail | MDK Studio",
+    "metaDescription": "Read the privacy policy for MathTrail, developed by MDK Studio. Understand how your math learning and progress data are protected and handled.",
+    "keywords": "privacy policy, mathtrail, mathematics, mdk studio, app privacy, gdpr, google play",
+    "heroTitle1": "Privacy",
+    "heroTitle2": "Policy",
+    "heroSubtitle": "App <b>MathTrail</b>, developed by <b>MDK Studio</b>",
+    "lastUpdated": "Last updated:",
+    "lastUpdatedDate": "September 15, 2026",
+    "quickSummaryLabel": "Quick summary:",
+    "quickSummaryText": "MathTrail is an educational app for learning mathematics. We prioritize your privacy: <b>we do not display third-party ads</b>, we do not sell your data, and you can use the app completely anonymously. Progress data can be securely synced to the cloud if you choose to sign in with your Google account.",
+    "footerRights": "All rights reserved.",
+    "backToSite": "Back to website",
+    "sections": [
+      {
+        "id": "collection",
+        "title": "Information We Collect",
+        "items": [
+          {
+            "subtitle": "Account & Optional Authentication",
+            "text": "You can use MathTrail anonymously (guest mode) or connect your Google Account via Supabase Auth. When you sign in, we only receive basic identifiers provided by Google (such as your user ID, public name, and email) to authenticate and sync your progress across devices."
+          },
+          {
+            "subtitle": "Learning Progress & Study Data",
+            "text": "To enable learning trails and lesson mechanics, we record your answered exercises history, scores, study time, daily streaks, unlocked lessons, and achievements. This data is saved locally on your device (Room Database and DataStore) and, if signed in, synchronized with our secure cloud database (Supabase)."
+          },
+          {
+            "subtitle": "Profile & Leaderboard Location",
+            "text": "You may customize a nickname and manually select your State and Country for public leaderboard rankings. MathTrail does NOT access GPS sensors and does NOT track your real-time geographical location."
+          }
+        ]
+      },
+      {
+        "id": "usage",
+        "title": "How We Use Information",
+        "items": [
+          {
+            "subtitle": "Pedagogical Experience & Gamification",
+            "text": "We use your study data to calculate your active streaks, recommend quick reviews for topics with lower accuracy, award achievements, and update your position on leaderboards."
+          },
+          {
+            "subtitle": "Cloud Sync & Backup",
+            "text": "For authenticated users, cloud synchronization allows you to restore your progress if you switch devices or reinstall the app."
+          },
+          {
+            "subtitle": "Diagnostics & Quality",
+            "text": "We use aggregated technical data to monitor app stability, resolve crashes, and optimize screen responsiveness."
+          }
+        ]
+      },
+      {
+        "id": "third-parties",
+        "title": "Third-Party Services & Infrastructure",
+        "items": [
+          {
+            "subtitle": "Google Firebase",
+            "text": "We use Firebase Crashlytics to receive anonymous crash reports, Firebase Performance & Analytics for aggregated performance telemetry, and Firebase Cloud Messaging (FCM) to deliver study notifications and streak reminders."
+          },
+          {
+            "subtitle": "Supabase Cloud",
+            "text": "Our cloud database and authentication provider with strict security controls, encryption in transit and at rest."
+          },
+          {
+            "subtitle": "Google Play Services",
+            "text": "We utilize official Google Play APIs for core services, such as Google Sign-In and Google Play In-App Reviews."
+          }
+        ]
+      },
+      {
+        "id": "advertising",
+        "title": "Advertising & No Commercialization",
+        "items": [
+          {
+            "subtitle": "No Third-Party Ads",
+            "text": "MathTrail was designed with a pure focus on the learning experience. The app does NOT contain any third-party ad networks (such as AdMob or targeted ads)."
+          },
+          {
+            "subtitle": "We Do Not Sell Your Data",
+            "text": "We never sell, rent, lease, or share personal information with third parties or data brokers."
+          }
+        ]
+      },
+      {
+        "id": "security",
+        "title": "Security & Storage",
+        "items": [
+          {
+            "subtitle": "Encryption & Operating System Protection",
+            "text": "All communication with our cloud servers is protected by TLS/HTTPS encryption. Data stored locally on your device is protected by the native Android app sandbox."
+          },
+          {
+            "subtitle": "Data Retention",
+            "text": "Progress data for authenticated users is retained as long as the account remains active. For guest mode users, data exists exclusively in the device's local storage."
+          }
+        ]
+      },
+      {
+        "id": "rights",
+        "title": "Your Rights & Data Deletion (GDPR / LGPD)",
+        "items": [
+          {
+            "subtitle": "Access, Rectification & Deletion",
+            "text": "You have the right to access, rectify, or request the permanent deletion of your account and all associated data at any time."
+          },
+          {
+            "subtitle": "How to Delete Your Data",
+            "text": "To delete local data, simply clear app storage in Android settings or uninstall the app. To request the complete deletion of your synchronized cloud account and student profile, please email us at contato@mdkstudio.com.br."
+          },
+          {
+            "subtitle": "Notification Preferences",
+            "text": "You can enable or disable study reminder notifications at any time in your Android device settings."
+          }
+        ]
+      },
+      {
+        "id": "children",
+        "title": "Children's & Students' Privacy",
+        "items": [
+          {
+            "subtitle": "Safe Environment for Learners",
+            "text": "MathTrail is an educational app created for mathematics learning. We do not collect unnecessary data, do not perform invasive behavioral tracking, and do not commercialize student data."
+          }
+        ]
+      },
+      {
+        "id": "updates",
+        "title": "Policy Updates",
+        "items": [
+          {
+            "subtitle": "Periodic Revisions",
+            "text": "We may update this Privacy Policy from time to time to reflect app improvements or legal compliance requirements. Any significant changes will be published on this page with an updated revision date."
+          }
+        ]
+      },
+      {
+        "id": "contact",
+        "title": "Contact & Support",
+        "items": [
+          {
+            "subtitle": "Reach Out to MDK Studio",
+            "text": "If you have questions, feedback, or requests regarding your privacy and data protection in MathTrail, please contact us at:",
+            "email": "contato@mdkstudio.com.br"
+          }
+        ]
+      }
+    ]
+  },
   "footer": {
     "description": "Mobile app development, high-converting websites, and custom web systems with total focus on conversion and premium UX/UI Design.",
     "quickLinks": "Quick Links",

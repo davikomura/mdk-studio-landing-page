@@ -238,6 +238,153 @@
       }
     ]
   },
+  "mathtrailPrivacy": {
+    "pageTitle": "Política de Privacidad — MathTrail | MDK Studio",
+    "metaDescription": "Lee la política de privacidad de MathTrail, desarrollada por MDK Studio. Conoce cómo se protegen y gestionan tus datos de progreso y aprendizaje matemático.",
+    "keywords": "política de privacidad, mathtrail, matemáticas, mdk studio, privacidad app, gdpr, google play",
+    "heroTitle1": "Política de",
+    "heroTitle2": "Privacidad",
+    "heroSubtitle": "Aplicación <b>MathTrail</b>, desarrollada por <b>MDK Studio</b>",
+    "lastUpdated": "Última actualización:",
+    "lastUpdatedDate": "15 de septiembre de 2026",
+    "quickSummaryLabel": "Resumen rápido:",
+    "quickSummaryText": "MathTrail es una aplicación educativa para el aprendizaje de matemáticas. Priorizamos tu privacidad: <b>no mostramos anuncios de terceros</b>, no vendemos tus datos y puedes usar la aplicación de forma anónima. Tus datos de progreso pueden sincronizarse de forma segura en la nube si decides iniciar sesión con tu cuenta de Google.",
+    "footerRights": "Todos los derechos reservados.",
+    "backToSite": "Volver al sitio",
+    "sections": [
+      {
+        "id": "recoleccion",
+        "title": "Información que Recopilamos",
+        "items": [
+          {
+            "subtitle": "Cuenta y Autenticación Opcional",
+            "text": "Puedes usar MathTrail de forma anónima (modo invitado) o conectar tu cuenta de Google mediante Supabase Auth. Al iniciar sesión, solo recibimos los identificadores básicos proporcionados por Google (como ID de usuario, nombre público y correo electrónico) para autenticar y sincronizar tu progreso entre dispositivos."
+          },
+          {
+            "subtitle": "Progreso de Aprendizaje y Datos de Estudio",
+            "text": "Para permitir las rutas de aprendizaje y lecciones, registramos el historial de ejercicios resueltos, puntuaciones, tiempo de estudio, rachas diarias (streaks), lecciones desbloqueadas y logros. Estos datos se guardan localmente en tu dispositivo (Room Database y DataStore) y, si iniciaste sesión, se sincronizan con nuestra base de datos segura en la nube (Supabase)."
+          },
+          {
+            "subtitle": "Perfil y Ubicación para Clasificación",
+            "text": "Puedes personalizar un alias y seleccionar manualmente tu Estado y País para la tabla de clasificación pública. MathTrail NO accede a sensores GPS y NO rastrea tu ubicación geográfica en tiempo real."
+          }
+        ]
+      },
+      {
+        "id": "uso",
+        "title": "Cómo Utilizamos la Información",
+        "items": [
+          {
+            "subtitle": "Experiencia Pedagógica y Gamificación",
+            "text": "Utilizamos tus datos de estudio para calcular tus rachas activas, recomendar repasos rápidos para temas con menor precisión, otorgar logros y actualizar tu posición en las clasificaciones."
+          },
+          {
+            "subtitle": "Sincronización en la Nube y Respaldo",
+            "text": "Para usuarios autenticados, la sincronización en la nube permite restaurar tu progreso si cambias de dispositivo o reinstalas la aplicación."
+          },
+          {
+            "subtitle": "Diagnóstico y Calidad",
+            "text": "Utilizamos datos técnicos agregados para supervisar la estabilidad de la app, corregir fallos y optimizar la velocidad de respuesta."
+          }
+        ]
+      },
+      {
+        "id": "terceros",
+        "title": "Servicios de Terceros e Infraestructura",
+        "items": [
+          {
+            "subtitle": "Google Firebase",
+            "text": "Utilizamos Firebase Crashlytics para recibir informes anónimos de fallos, Firebase Performance & Analytics para telemetría agregada de rendimiento y Firebase Cloud Messaging (FCM) para enviar notificaciones y recordatorios de estudio."
+          },
+          {
+            "subtitle": "Supabase Cloud",
+            "text": "Nuestro proveedor de infraestructura de base de datos y autenticación con estrictos controles de seguridad y cifrado de datos en tránsito y en reposo."
+          },
+          {
+            "subtitle": "Google Play Services",
+            "text": "Utilizamos las API oficiales de Google Play para servicios esenciales, como inicio de sesión con Google y reseñas dentro de la app (In-App Review)."
+          }
+        ]
+      },
+      {
+        "id": "publicidad",
+        "title": "Publicidad y No Comercialización",
+        "items": [
+          {
+            "subtitle": "Sin Anuncios de Terceros",
+            "text": "MathTrail fue diseñado con un enfoque exclusivo en la experiencia de aprendizaje. La app NO contiene redes de publicidad de terceros (como AdMob o publicidad dirigida)."
+          },
+          {
+            "subtitle": "No Vendemos tus Datos",
+            "text": "Jamás comercializamos, alquilamos ni compartimos información personal con terceros ni con corredores de datos (data brokers)."
+          }
+        ]
+      },
+      {
+        "id": "seguridad",
+        "title": "Seguridad y Almacenamiento",
+        "items": [
+          {
+            "subtitle": "Cifrado y Protección del Sistema Operativo",
+            "text": "Toda la comunicación con nuestros servidores en la nube está protegida mediante cifrado TLS/HTTPS. Los datos almacenados localmente en tu dispositivo están resguardados por el aislamiento seguro (sandbox) del sistema operativo Android."
+          },
+          {
+            "subtitle": "Retención de Datos",
+            "text": "Los datos de progreso de usuarios autenticados se conservan mientras la cuenta permanezca activa. Para usuarios en modo invitado, los datos existen exclusivamente en el almacenamiento local del dispositivo."
+          }
+        ]
+      },
+      {
+        "id": "derechos",
+        "title": "Tus Derechos y Eliminación de Datos (GDPR / LGPD)",
+        "items": [
+          {
+            "subtitle": "Acceso, Rectificación y Eliminación",
+            "text": "Tienes derecho a acceder, rectificar o solicitar la eliminación permanente de tu cuenta y de todos los datos asociados en cualquier momento."
+          },
+          {
+            "subtitle": "Cómo Eliminar tus Datos",
+            "text": "Para borrar datos locales, basta con limpiar el almacenamiento de la app en los ajustes de Android o desinstalarla. Para solicitar la eliminación completa de tu cuenta sincronizada en la nube y perfil de estudiante, envíanos un correo a contato@mdkstudio.com.br."
+          },
+          {
+            "subtitle": "Gestión de Notificaciones",
+            "text": "Puedes activar o desactivar las notificaciones de recordatorio de estudio en cualquier momento desde los ajustes de tu dispositivo Android."
+          }
+        ]
+      },
+      {
+        "id": "estudiantes",
+        "title": "Privacidad de Niños y Estudiantes",
+        "items": [
+          {
+            "subtitle": "Entorno Seguro para el Aprendizaje",
+            "text": "MathTrail es una aplicación educativa diseñada para el aprendizaje de matemáticas. No recopilamos datos innecesarios, no realizamos seguimiento invasivo y no comercializamos ninguna información de estudiantes."
+          }
+        ]
+      },
+      {
+        "id": "actualizaciones",
+        "title": "Actualizaciones de esta Política",
+        "items": [
+          {
+            "subtitle": "Revisiones Periódicas",
+            "text": "Podemos actualizar esta Política de Privacidad para reflejar mejoras en la app o responder a nuevas exigencias normativas. Cualquier cambio relevante se publicará en esta página con la fecha de revisión actualizada."
+          }
+        ]
+      },
+      {
+        "id": "contacto",
+        "title": "Contacto y Soporte",
+        "items": [
+          {
+            "subtitle": "Comunícate con MDK Studio",
+            "text": "Si tienes dudas, sugerencias o solicitudes sobre tu privacidad y protección de datos en MathTrail, contáctanos por correo electrónico en:",
+            "email": "contato@mdkstudio.com.br"
+          }
+        ]
+      }
+    ]
+  },
   "footer": {
     "description": "Desarrollo de aplicaciones móviles, sitios de alta conversión y sistemas web a medida con un enfoque total en la conversión y Diseño UX/UI premium.",
     "quickLinks": "Enlaces Rápidos",
