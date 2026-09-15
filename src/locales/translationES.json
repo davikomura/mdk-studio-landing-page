@@ -385,6 +385,59 @@
       }
     ]
   },
+  "mathtrailDeleteAccount": {
+    "pageTitle": "Eliminación de Cuenta y Datos — MathTrail | MDK Studio",
+    "metaDescription": "Conoce cómo solicitar la eliminación de tu cuenta y de todos los datos personales y de progreso asociados a la app MathTrail, desarrollada por MDK Studio.",
+    "keywords": "eliminar cuenta, borrar cuenta, mathtrail, mdk studio, privacidad, gdpr, google play",
+    "heroBadge": "MathTrail · Google Play Store",
+    "heroTitle1": "Eliminación de Cuenta",
+    "heroTitle2": "& Datos",
+    "heroSubtitle": "Pautas y pasos para solicitar la eliminación permanente de la cuenta y los datos de la aplicación <b>MathTrail</b>, desarrollada por <b>MDK Studio</b>.",
+    "lastUpdated": "Última actualización:",
+    "lastUpdatedDate": "15 de septiembre de 2026",
+    "summaryTitle": "Compromiso con tu Privacidad",
+    "summaryText": "En <b>MathTrail</b>, tienes control absoluto sobre tus datos personales. Tanto si utilizaste la aplicación con una cuenta de Google iniciada como en modo anónimo/invitado, puedes solicitar o realizar la eliminación total de tus datos en cualquier momento.",
+    "stepsTitle": "Cómo Solicitar la Eliminación",
+    "stepsSubtitle": "Sigue los pasos según tus necesidades:",
+    "step1Title": "1. Eliminación de Datos Locales del Dispositivo",
+    "step1Desc": "Si utilizas MathTrail en modo invitado o simplemente deseas borrar los datos almacenados en tu dispositivo Android:",
+    "step1Items": [
+      "Abre los 'Ajustes' en tu dispositivo Android.",
+      "Accede a 'Aplicaciones' > 'MathTrail' > 'Almacenamiento'.",
+      "Pulsa en 'Borrar datos' / 'Borrar almacenamiento', o simplemente desinstala la aplicación.",
+      "Todo el progreso guardado localmente en la base de datos Room y las preferencias se eliminarán de inmediato."
+    ],
+    "step2Title": "2. Eliminación de Cuenta en la Nube y Perfil",
+    "step2Desc": "Si vinculaste una cuenta de Google para la sincronización de progreso y deseas eliminar definitivamente tu cuenta de nuestros servidores en la nube (Supabase):",
+    "step2Items": [
+      "Envía un correo electrónico a contato@mdkstudio.com.br con el asunto: 'Solicitud de Eliminación de Cuenta - MathTrail'.",
+      "En el cuerpo del correo, indica la dirección de correo electrónico asociada a tu cuenta de Google usada en la app y, opcionalmente, tu alias en la clasificación.",
+      "Nuestro equipo procesará la solicitud y te confirmará la eliminación permanente por correo electrónico."
+    ],
+    "emailButton": "Enviar Solicitud por Correo",
+    "emailSubject": "Solicitud de Eliminación de Cuenta - MathTrail",
+    "emailBody": "Hola equipo de MDK Studio,%0D%0A%0D%0AMe gustaría solicitar la eliminación permanente de mi cuenta y de todos los datos asociados en la aplicación MathTrail.%0D%0A%0D%0ACorreo registrado:%20%0D%0AAlias en la app (opcional):%20%0D%0A%0D%0AGracias.",
+    "dataHandlingTitle": "Tratamiento y Retención de Datos",
+    "dataDeletedTitle": "Datos que se Eliminan Definitivamente:",
+    "dataDeletedList": [
+      "Identificador único de usuario (User ID en Supabase Auth).",
+      "Dirección de correo electrónico y datos de autenticación de Google vinculados.",
+      "Alias de usuario y selección de Estado/País.",
+      "Historial de lecciones completadas, puntuaciones y tasa de precisión.",
+      "Rachas diarias (streaks), tiempo de estudio y logros desbloqueados.",
+      "Entradas en las tablas de clasificación públicas (Leaderboards)."
+    ],
+    "dataRetainedTitle": "Datos Conservados o Período Adicional:",
+    "dataRetainedList": [
+      "No se conserva ningún dato de identificación personal tras la finalización del proceso.",
+      "Los registros técnicos agregados y estrictamente anónimos (como métricas globales de estabilidad o informes anónimos de fallos en Firebase Crashlytics) que no contengan identificadores personales pueden conservarse únicamente con fines de mejora técnica continua de la app."
+    ],
+    "timeframeTitle": "Plazo de Procesamiento",
+    "timeframeText": "Las solicitudes de eliminación de cuenta en la nube se procesan y completan en un plazo de hasta <b>15 días hábiles</b> a partir de la recepción del correo.",
+    "contactSupportTitle": "Dudas o Soporte",
+    "contactSupportText": "Si tienes alguna pregunta sobre el proceso de eliminación de datos, comunícate directamente con nuestro equipo:",
+    "contactEmail": "contato@mdkstudio.com.br"
+  },
   "footer": {
     "description": "Desarrollo de aplicaciones móviles, sitios de alta conversión y sistemas web a medida con un enfoque total en la conversión y Diseño UX/UI premium.",
     "quickLinks": "Enlaces Rápidos",

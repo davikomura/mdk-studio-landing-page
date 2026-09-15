@@ -4,6 +4,7 @@ import App from './App.jsx';
 
 const PrivacyApp = lazy(() => import('./PrivacyApp.jsx'));
 const MathTrailPrivacyApp = lazy(() => import('./MathTrailPrivacyApp.jsx'));
+const MathTrailDeleteAccountApp = lazy(() => import('./MathTrailDeleteAccountApp.jsx'));
 
 // Component to handle auto-detection and redirecting the root "/" to "/:lang"
 const RootRedirect = () => {
@@ -44,6 +45,19 @@ const MathTrailPrivacyRedirect = () => {
   return null;
 };
 
+// Component to handle redirecting "/mathtrail/delete-account" to "/:lang/mathtrail/delete-account"
+const MathTrailDeleteAccountRedirect = () => {
+  const navigate = useNavigate();
+  useEffect(() => {
+    const browserLanguage = navigator.language.slice(0, 2).toLowerCase();
+    const availableLanguages = ["en", "pt", "es"];
+    const targetLang = availableLanguages.includes(browserLanguage) ? browserLanguage : "pt";
+    navigate(`/${targetLang}/mathtrail/delete-account`, { replace: true });
+  }, [navigate]);
+
+  return null;
+};
+
 // Layout component to validate language code
 const LanguageLayout = () => {
   const { lang } = useParams();
@@ -78,6 +92,14 @@ const routes = [
     element: <MathTrailPrivacyRedirect />,
   },
   {
+    path: "/mathtrail/delete-account",
+    element: <MathTrailDeleteAccountRedirect />,
+  },
+  {
+    path: "/mathtrail/excluir-conta",
+    element: <MathTrailDeleteAccountRedirect />,
+  },
+  {
     path: "/:lang",
     element: <LanguageLayout />,
     children: [
@@ -106,6 +128,22 @@ const routes = [
         element: (
           <Suspense fallback={<div className="bg-black min-h-screen" />}>
             <MathTrailPrivacyApp />
+          </Suspense>
+        ),
+      },
+      {
+        path: "mathtrail/delete-account",
+        element: (
+          <Suspense fallback={<div className="bg-black min-h-screen" />}>
+            <MathTrailDeleteAccountApp />
+          </Suspense>
+        ),
+      },
+      {
+        path: "mathtrail/excluir-conta",
+        element: (
+          <Suspense fallback={<div className="bg-black min-h-screen" />}>
+            <MathTrailDeleteAccountApp />
           </Suspense>
         ),
       },
