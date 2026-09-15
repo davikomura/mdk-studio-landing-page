@@ -385,6 +385,59 @@
       }
     ]
   },
+  "mathtrailDeleteAccount": {
+    "pageTitle": "Account & Data Deletion — MathTrail | MDK Studio",
+    "metaDescription": "Learn how to request the deletion of your account and all associated personal and progress data for MathTrail, developed by MDK Studio.",
+    "keywords": "delete account, account deletion, mathtrail, mdk studio, privacy, gdpr, google play",
+    "heroBadge": "MathTrail · Google Play Store",
+    "heroTitle1": "Account Deletion",
+    "heroTitle2": "& Data Removal",
+    "heroSubtitle": "Guidelines and steps for requesting permanent deletion of your account and data for the <b>MathTrail</b> app, developed by <b>MDK Studio</b>.",
+    "lastUpdated": "Last updated:",
+    "lastUpdatedDate": "September 15, 2026",
+    "summaryTitle": "Commitment to Your Privacy",
+    "summaryText": "In <b>MathTrail</b>, you have full control over your personal data. Whether you used the app with a signed-in Google account or in anonymous/guest mode, you can request or perform the complete deletion of your data at any time.",
+    "stepsTitle": "How to Request Deletion",
+    "stepsSubtitle": "Follow the steps below according to your needs:",
+    "step1Title": "1. Local Device Data Deletion",
+    "step1Desc": "If you use MathTrail in guest mode or simply wish to remove local data from your Android device:",
+    "step1Items": [
+      "Open 'Settings' on your Android device.",
+      "Navigate to 'Apps' > 'MathTrail' > 'Storage'.",
+      "Tap 'Clear Data' / 'Clear Storage', or simply uninstall the app.",
+      "All locally saved progress in the Room database and preferences will be erased immediately."
+    ],
+    "step2Title": "2. Cloud Account & Profile Data Deletion",
+    "step2Desc": "If you linked a Google Account for progress synchronization and wish to permanently delete your account from our cloud servers (Supabase):",
+    "step2Items": [
+      "Send an email to contato@mdkstudio.com.br with the subject: 'Account Deletion Request - MathTrail'.",
+      "In the body of the email, provide the email address associated with your Google Account used in the app and, optionally, your username.",
+      "Our team will process the request and confirm the permanent deletion via email."
+    ],
+    "emailButton": "Submit Deletion Request via Email",
+    "emailSubject": "Account Deletion Request - MathTrail",
+    "emailBody": "Hello MDK Studio Team,%0D%0A%0D%0AI would like to request the permanent deletion of my account and all associated data in the MathTrail app.%0D%0A%0D%0ARegistered Email:%20%0D%0AApp Username (optional):%20%0D%0A%0D%0AThank you.",
+    "dataHandlingTitle": "Data Handling & Retention",
+    "dataDeletedTitle": "Data That Is Permanently Deleted:",
+    "dataDeletedList": [
+      "Unique user identifier (User ID in Supabase Auth).",
+      "Associated Google authentication data and email address.",
+      "User profile nickname and Country/State selection.",
+      "Completed lessons history, quiz scores, and accuracy metrics.",
+      "Daily streaks, study time, and unlocked achievements.",
+      "Public leaderboard ranking entries."
+    ],
+    "dataRetainedTitle": "Retained Data or Additional Periods:",
+    "dataRetainedList": [
+      "No personally identifiable data is retained after completion of the deletion process.",
+      "Aggregated, strictly anonymous technical logs (such as global app crash statistics in Firebase Crashlytics) that cannot be linked to any individual user may be retained solely for app reliability improvements."
+    ],
+    "timeframeTitle": "Processing Timeframe",
+    "timeframeText": "Cloud account deletion requests are processed and completed within <b>15 business days</b> of receipt of the email.",
+    "contactSupportTitle": "Questions or Support",
+    "contactSupportText": "If you have any questions regarding data deletion, please contact our team directly:",
+    "contactEmail": "contato@mdkstudio.com.br"
+  },
   "footer": {
     "description": "Mobile app development, high-converting websites, and custom web systems with total focus on conversion and premium UX/UI Design.",
     "quickLinks": "Quick Links",

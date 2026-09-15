@@ -385,6 +385,59 @@
       }
     ]
   },
+  "mathtrailDeleteAccount": {
+    "pageTitle": "Exclusão de Conta e Dados — MathTrail | MDK Studio",
+    "metaDescription": "Saiba como solicitar a exclusão da sua conta e de todos os dados pessoais e de progresso associados ao aplicativo MathTrail, desenvolvido pela MDK Studio.",
+    "keywords": "exclusão de conta, deletar conta, mathtrail, mdk studio, privacidade, lgpd, google play",
+    "heroBadge": "MathTrail · Google Play Store",
+    "heroTitle1": "Exclusão de Conta",
+    "heroTitle2": "& Dados",
+    "heroSubtitle": "Diretrizes e etapas para solicitação de exclusão definitiva de conta e dados do aplicativo <b>MathTrail</b>, desenvolvido por <b>MDK Studio</b>.",
+    "lastUpdated": "Última atualização:",
+    "lastUpdatedDate": "15 de setembro de 2026",
+    "summaryTitle": "Compromisso com sua Privacidade",
+    "summaryText": "No <b>MathTrail</b>, você tem total controle sobre seus dados pessoais. Se você utilizou o aplicativo com uma conta Google autenticada ou no modo anônimo/convidado, pode solicitar ou realizar a exclusão de todas as suas informações a qualquer momento.",
+    "stepsTitle": "Como Solicitar a Exclusão",
+    "stepsSubtitle": "Siga os passos abaixo de acordo com a sua necessidade:",
+    "step1Title": "1. Exclusão de Dados Locais (Dispositivo)",
+    "step1Desc": "Se você utiliza o MathTrail no modo convidado ou deseja apenas remover os dados salvos no seu aparelho:",
+    "step1Items": [
+      "Abra as 'Configurações' do seu dispositivo Android.",
+      "Vá em 'Aplicativos' > 'MathTrail' > 'Armazenamento'.",
+      "Toque em 'Limpar dados' ou simplesmente desinstale o aplicativo do seu celular.",
+      "Todos os dados locais salvos no banco Room e preferências serão excluídos imediatamente."
+    ],
+    "step2Title": "2. Exclusão de Conta em Nuvem e Dados de Perfil",
+    "step2Desc": "Se você vinculou uma Conta Google para sincronização de progresso e deseja excluir permanentemente sua conta de nossos servidores em nuvem (Supabase):",
+    "step2Items": [
+      "Envie um e-mail para contato@mdkstudio.com.br com o assunto: 'Solicitação de Exclusão de Conta - MathTrail'.",
+      "No corpo do e-mail, informe o endereço de e-mail associado à sua Conta Google usada no aplicativo e, opcionalmente, seu apelido no ranking.",
+      "Nossa equipe processará a solicitação e responderá com a confirmação da exclusão definitiva."
+    ],
+    "emailButton": "Enviar Solicitação por E-mail",
+    "emailSubject": "Solicitação de Exclusão de Conta - MathTrail",
+    "emailBody": "Olá equipe MDK Studio,%0D%0A%0D%0AGostaria de solicitar a exclusão definitiva da minha conta e de todos os dados associados no aplicativo MathTrail.%0D%0A%0D%0AE-mail cadastrado:%20%0D%0AApelido no app (opcional):%20%0D%0A%0D%0AObrigado.",
+    "dataHandlingTitle": "Tratamento e Retenção de Dados",
+    "dataDeletedTitle": "Dados que são Excluídos Definitivamente:",
+    "dataDeletedList": [
+      "Identificador único de usuário (User ID no Supabase Auth).",
+      "Endereço de e-mail e dados de autenticação Google vinculados.",
+      "Apelido de usuário e seleção de Estado/País.",
+      "Histórico de lições concluídas, pontuações e taxa de precisão.",
+      "Ofensivas diárias (streaks), tempo de estudo e conquistas desbloqueadas.",
+      "Entradas nos placares de líderes públicos (Leaderboards)."
+    ],
+    "dataRetainedTitle": "Dados Mantidos ou Período Adicional:",
+    "dataRetainedList": [
+      "Nenhum dado pessoal identificável é mantido após a conclusão do processo.",
+      "Registros técnicos agregados e estritamente anônimos (como métricas globais de estabilidade ou relatórios anônimos de falhas no Crashlytics) que não contêm identificadores pessoais podem permanecer para fins de melhoria técnica contínua do aplicativo."
+    ],
+    "timeframeTitle": "Prazo de Processamento",
+    "timeframeText": "As solicitações de exclusão de conta em nuvem são processadas e concluídas em até <b>15 dias úteis</b> a partir do recebimento do e-mail.",
+    "contactSupportTitle": "Dúvidas ou Suporte",
+    "contactSupportText": "Caso tenha qualquer dúvida referente ao processo de exclusão de dados, entre em contato diretamente com nossa equipe:",
+    "contactEmail": "contato@mdkstudio.com.br"
+  },
   "footer": {
     "description": "Desenvolvimento de aplicativos móveis, sites de alta conversão e sistemas web sob medida com foco total em conversão e UX/UI Design premium.",
     "quickLinks": "Links Rápidos",
